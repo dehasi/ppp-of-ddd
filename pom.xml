@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>me.dehasi</groupId>
-    <artifactId>ppp-of-ddd</artifactId>
-    <version>LATEST-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>ch05</module>
-    </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+      
+  <modelVersion>4.0.0</modelVersion>
+      
+  <groupId>me.dehasi</groupId>
+      
+  <artifactId>ppp-of-ddd</artifactId>
+      
+  <version>LATEST-SNAPSHOT</version>
+      
+  <packaging>pom</packaging>
+      
+  <modules>
+            
+    <module>ch05</module>
+            
+    <module>ch10</module>
+          
+    <module>java-replacements</module>
+      
+  </modules>
+      
+  <properties>
+            
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            
+    <maven.compiler.source>17</maven.compiler.source>
+            
+    <maven.compiler.target>17</maven.compiler.target>
+        
+  </properties>
+  
 </project>

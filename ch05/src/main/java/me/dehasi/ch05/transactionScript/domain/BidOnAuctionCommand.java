@@ -1,5 +1,8 @@
 package me.dehasi.ch05.transactionScript.domain;
 
+import me.dehasi.replacements.exception.ApplicationException;
+import me.dehasi.replacements.exception.InvalidOperationException;
+
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -66,7 +69,7 @@ public class BidOnAuctionCommand implements ICommand {
             auction.winningBid = amount;
 
             // DB Update
-        } else throw new IllegalArgumentException("You have to bid greater than the starting price.");
+        } else throw new ApplicationException("You have to bid greater than the starting price.");
     }
 
     private void throwExceptionIfNotValid(UUID auctionId, UUID bidderId, BigDecimal amount, LocalDateTime dateOfBid) {
@@ -77,10 +80,10 @@ public class BidOnAuctionCommand implements ICommand {
             throw new IllegalArgumentException("Time of bid must have a value");
 
         if (amount.stripTrailingZeros().scale() > 2)
-            throw new IllegalArgumentException("There cannot be more than two decimal places.");
+            throw new InvalidOperationException("There cannot be more than two decimal places.");
 
         if (the(amount).isLessThan(ZERO))
-            throw new IllegalArgumentException("Money cannot be a negative value.");
+            throw new InvalidOperationException("Money cannot be a negative value.");
     }
 
     private BigDecimal bidIncrement(BigDecimal currentAuctionWinningBid) {

@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/transactionScript/application/BidOnAuctionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/domainModel/application/BidOnAuctionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/domainModel/application/BidOnAuctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-replacements/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/domainModel/model/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/domainModel/model/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/tableModule/domain/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/tableModule/domain/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/domainModel/model/WinningBid.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/domainModel/model/WinningBid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/transactionScript/domain/BidOnAuction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/transactionScript/domain/BidOnAuction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/transactionScript/domain/BidOnAuctionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/transactionScript/domain/BidOnAuctionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/transactionScript/domain/CreateAuction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch05/src/main/java/me/dehasi/ch05/transactionScript/domain/CreateAuction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/BasketItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/BasketItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/BasketItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/BasketItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/OverSeasSellingPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/OverSeasSellingPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/explicitLogic/model/basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/BasketItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/BasketItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/BasketItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/BasketItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch10/src/main/java/me/dehasi/ecommerce/implicitLogic/model/basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dehasi/pppddd/common/ApplicationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-replacements/src/main/java/me/dehasi/replacements/exception/ApplicationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dehasi/pppddd/common/InvalidOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-replacements/src/main/java/me/dehasi/replacements/exception/InvalidOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dehasi/pppddd/common/NotImplementedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-replacements/src/main/java/me/dehasi/replacements/exception/NotImplementedException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +47,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="CH-05" />
+        <option name="rewordedMessage" value="CH-05" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="dcc968848c2171dce8e19b22abfc8191a1b20283" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,26 +73,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultPlantUmlFileTemplate": "Empty",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;Empty&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.dehasi.ecommerce.implicitLogic.model" />
+      <recent name="me.dehasi.ecommerce.explicitLogic.model" />
       <recent name="java.me.dehasi.ch05.domainModel.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.dehasi.ecommerce.implicitLogic.model" />
     </key>
   </component>
   <component name="RunManager">
@@ -77,6 +113,9 @@
       </method>
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
@@ -105,9 +144,21 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="CH-05" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-05" />
+    <MESSAGE value="CH-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-10" />
   </component>
 </project>

@@ -15,5 +15,7 @@ public class Bid {
         this.bidder = requireNonNull(bidderId, "bidderId cannot be null");
         this.maximumBid = requireNonNull(maximumBid, "maximumBid cannot be null");
         this.timeOfOffer = requireNonNull(timeOfOffer, "time of offer must have a value");
+        if (timeOfOffer == LocalDateTime.MIN)
+            throw new IllegalArgumentException("Time of Offer must have a value");
     }
 }

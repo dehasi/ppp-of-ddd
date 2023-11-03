@@ -7,10 +7,9 @@
         <version>LATEST-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ch05</artifactId>
+    <artifactId>ch10</artifactId>
     <version>LATEST-SNAPSHOT</version>
-
-    <name>ch05</name>
+    <name>ch10</name>
 
     <dependencies>
         <dependency>
@@ -19,11 +18,5 @@
             <version>LATEST-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>me.dehasi</groupId>
-            <artifactId>zeliba</artifactId>
-            <version>2022.02.08</version>
-        </dependency>
     </dependencies>
-
 </project>

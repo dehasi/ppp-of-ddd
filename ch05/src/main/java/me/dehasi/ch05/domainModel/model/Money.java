@@ -1,5 +1,7 @@
 package me.dehasi.ch05.domainModel.model;
 
+import me.dehasi.replacements.exception.InvalidOperationException;
+
 import java.math.BigDecimal;
 
 import static java.math.BigDecimal.ZERO;
@@ -18,10 +20,10 @@ public class Money {
 
     private void ThrowExceptionIfNotValid(BigDecimal value) {
         if (value.stripTrailingZeros().scale() > 2)
-            throw new IllegalStateException("There cannot be more than two BigDecimal places.");
+            throw new InvalidOperationException("There cannot be more than two BigDecimal places.");
 
         if (value.compareTo(ZERO) < 0)
-            throw new IllegalStateException("Money cannot be a negative value.");
+            throw new InvalidOperationException("Money cannot be a negative value.");
     }
 
     Money add(Money money) {

@@ -1,5 +1,7 @@
 package me.dehasi.ch05.domainModel.model;
 
+import me.dehasi.replacements.exception.ApplicationException;
+
 import java.time.LocalDateTime;
 import java.util.UUID;
 
@@ -25,9 +27,8 @@ class WinningBid {
         if (newAmount.isGreaterThan(maximumBid))
             return new WinningBid(bidder, newAmount, currentAuctionPrice.amount, LocalDateTime.now());
         else
-            throw new IllegalStateException("Maximum bid increase must be larger than current maximum bid.");
+            throw new ApplicationException("Maximum bid increase must be larger than current maximum bid.");
     }
-
 
     public boolean wasMadeBy(UUID bidder) {
         return this.bidder.equals(bidder);

@@ -4,4 +4,19 @@ Sample code for the book Principles, Practices and Patterns of Domain-Driven Des
 
 From the book http://www.amazon.com/Professional-Domain-Driven-Design-Patterns/dp/1118714709/
 
-The origial code written in C#, this is Java version.
+The original code written in C#, this is Java version.
+
+.replacements
+|===
+|Original |Equivalent | Comment
+
+|GUID | UUID | As it's just an example,for this project there is no difference
+| decimal | BigDecimal | use https://github.com/dehasi/zeliba#TheComparable[TheComparable] for fluent comparison, as Java doesn't support `>` or `<` for BigDecimal
+| NotImplementedException | own NotImplementedException |
+| ApplicationException | own ApplicationException | later own ApplicationException, sometimes IllegalStateException
+| ArgumentNullException | NullPointerException | usually inside `Objects.requireNonNull`, sometimes IllegalArgumentException
+| InvalidOperationException | own InvalidOperationException |
+|===
+
+.todo
+* [ ] check code for CH-8
