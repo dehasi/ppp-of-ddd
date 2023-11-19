@@ -1,0 +1,24 @@
+version: '2'
+services:
+
+  broker:
+    image: confluentinc/confluent-local:7.4.1
+    hostname: broker
+    container_name: broker
+    ports:
+      - "18082:8082"
+      - "9092:9092"
+      - "9101:9101"
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: 'PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092'
+      KAFKA_CONTROLLER_QUORUM_VOTERS: '1@broker:29093'
+      KAFKA_LISTENERS: 'PLAINTEXT://broker:29092,CONTROLLER://broker:29093,PLAINTEXT_HOST://0.0.0.0:9092'
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    ports:
+      - 9999:8080
+    environment:
+      DYNAMIC_CONFIG_ENABLED: true
+      KAFKA_CLUSTERS_0_NAME: local
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: broker:29092
