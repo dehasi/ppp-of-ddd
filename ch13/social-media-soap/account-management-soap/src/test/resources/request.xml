@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://accountmanagement.socialmedia">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:findUsersFollowers>
+            <gs:accountId>42</gs:accountId>
+        </gs:findUsersFollowers>
+    </soapenv:Body>
+</soapenv:Envelope>

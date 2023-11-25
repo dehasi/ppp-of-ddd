@@ -1,10 +1,14 @@
 = PPP of DDD
+:toc:
+:toclevels: 2
 
 Sample code for the book "Principles, Practices and Patterns of Domain-Driven Design".
 
 From the book http://www.amazon.com/Professional-Domain-Driven-Design-Patterns/dp/1118714709/
 
-The original code written in C#, this is Java version. Improvements and pull requests are welcome!
+The original code written in `C#`, this is `Java` version. Improvements and pull requests are welcome!
+
+== Replacements
 
 .replacements
 |===
@@ -17,9 +21,24 @@ The original code written in C#, this is Java version. Improvements and pull req
 | ArgumentNullException | NullPointerException | usually inside `Objects.requireNonNull`, sometimes IllegalArgumentException
 | InvalidOperationException | own InvalidOperationException |
 
+
 | ASP.NET | Spring Thymeleaf | See README in CH12
 | NServiceBus | RabbitMQ  | See README in CH12
 | Mass Transit | Kafka  |  | See README in CH12
 | IEnumerable | arrays | Can be also `List<>`
+
+| ASP.NET | Spring Thymeleaf | See README in CH12
+| NServiceBus | RabbitMQ  | See README in CH12
+| Mass Transit | Kafka  | See README in CH12
+| `Syndication` |  `rometools` | See README in CH13
 |===
 
+
+== Chapter 12
+It's a big chapter, and it requires a separate readme.
+See link:ch12/README.adoc[] for details.
+
+
+== Chapter 13
+It's a big chapter, and it requires a separate readme.
+See  link:ch13/README.adoc[]  for details.

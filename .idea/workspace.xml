@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ch12/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/ch12/README.adoc" afterDir="false" />
-    </list>
+    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -24,8 +28,9 @@
         <option value="SpringBootCRUD.java.child.1" />
         <option value="SpringBootCRUD" />
         <option value="HTML File" />
-        <option value="Empty" />
         <option value="Enum" />
+        <option value="Empty" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -63,27 +68,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;Empty&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch12/billing-payments/src/main/java/billing&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch12/promotions-lucky-winner-bridge/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "DefaultPlantUmlFileTemplate": "Empty",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "/Users/ravil/projects/ppp-of-ddd/ch12/billing-payments/src/main/java/billing",
+    "last_opened_file_path": "/Users/ravil/projects/ppp-of-ddd/ch13/social-media-rest/account-management-regular-account/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="me.dehasi.ecommerce.implicitLogic.model" />
@@ -91,26 +98,34 @@
       <recent name="java.me.dehasi.ch05.domainModel.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ch12/promotions-lucky-winner-bridge/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ch12/promotions-lucky-winner/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ch12/shipping-business-customers/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ch12/web-app/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ch12/billing-payments/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src/main/java" />
+      <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src" />
+      <recent name="$PROJECT_DIR$/ch13/social-media-json" />
+      <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-accounts-api/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch13/social-media-rest" />
       <recent name="$PROJECT_DIR$/ch12/web-app/src/main/java/me/dehasi" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="me.dehasi.billing.messages.commands" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="discovery.recommernder" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="discovery" />
+      <recent name="accountmanagement" />
+      <recent name="socialmedia.accountmanagement" />
       <recent name="promotions" />
       <recent name="shipping" />
-      <recent name="me.dehasi.sales.messages.events" />
-      <recent name="me.dehasi.ecommerce.implicitLogic.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PromotionsBridgeApp">
+  <component name="RunManager" selected="Application.BeganFollowingPollingFeedConsumer">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -140,12 +155,12 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="PromotionsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="promotions.PromotionsApp" />
-      <module name="promotions-lucky-winner" />
+    <configuration name="AccountManagementEntryPointApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accountmanagement.AccountManagementEntryPointApp" />
+      <module name="account-management-entry-point" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="promotions.*" />
+          <option name="PATTERN" value="accountmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PromotionsBridgeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="promotions.PromotionsBridgeApp" />
-      <module name="promotions-lucky-winner-bridge" />
+    <configuration name="AccountsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accountmanagement.AccountsApp" />
+      <module name="account-management-accounts-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="promotions.*" />
+          <option name="PATTERN" value="accountmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sales.SalesApp" />
-      <module name="sales-orders" />
+    <configuration name="BeganFollowingPollingFeedConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="discovery.BeganFollowingPollingFeedConsumer" />
+      <module name="discovery-reccommendations" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sales.*" />
+          <option name="PATTERN" value="discovery.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sales.WebApp" />
-      <module name="web-app" />
+    <configuration name="RegularAccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accountmanagement.RegularAccountApp" />
+      <module name="account-management-regular-account" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="me.dehasi.sales.*" />
+          <option name="PATTERN" value="accountmanagement.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,28 +213,26 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="ch12/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="social-media-rest/docker-compose.yaml.eventstoredb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="ch12/docker-compose.yaml" />
+          <option name="services">
+            <list>
+              <option value="eventstoredb" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="ch13/social-media-rest/docker-compose.yaml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Application.PromotionsApp" />
-      <item itemvalue="Application.PromotionsBridgeApp" />
-      <item itemvalue="Application.SalesApp" />
-      <item itemvalue="Application.WebApp" />
-      <item itemvalue="Docker.ch12/docker-compose.yaml: Compose Deployment" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PromotionsBridgeApp" />
-        <item itemvalue="Application.PromotionsApp" />
-        <item itemvalue="Application.WebApp" />
-        <item itemvalue="Application.SalesApp" />
-        <item itemvalue="Docker.ch12/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Application.BeganFollowingPollingFeedConsumer" />
+        <item itemvalue="Application.AccountsApp" />
+        <item itemvalue="Application.AccountManagementEntryPointApp" />
+        <item itemvalue="Application.RegularAccountApp" />
+        <item itemvalue="Docker.social-media-rest/docker-compose.yaml.eventstoredb: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -238,32 +251,32 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-12: Prepare maven projects" />
-    <MESSAGE value="CH-12: billing messages" />
-    <MESSAGE value="CH-12: billing payments" />
-    <MESSAGE value="CH-12: Try RabbitMQ" />
-    <MESSAGE value="CH-12: RabbitMQ Works" />
-    <MESSAGE value="CH-12: Add readme" />
-    <MESSAGE value="CH-12: Serde" />
-    <MESSAGE value="CH-12: Billing" />
-    <MESSAGE value="CH-12: Multiqueue" />
-    <MESSAGE value="CH-12: Add payment attempt handler" />
-    <MESSAGE value="CH-12: Add shipping" />
-    <MESSAGE value="CH-12: Add C4" />
-    <MESSAGE value="CH-12: Add Shipping" />
-    <MESSAGE value="CH-12: Add fanount" />
-    <MESSAGE value="CH-12: Add full logs" />
-    <MESSAGE value="CH-12: System boundary" />
-    <MESSAGE value="CH-12: Kafka local docker compose" />
-    <MESSAGE value="CH-12: Promotions listerner" />
-    <MESSAGE value="CH-12: Run" />
-    <MESSAGE value="CH-12: Consume strings" />
-    <MESSAGE value="CH-12: Consume OrderCreated" />
-    <MESSAGE value="CH-12: Add bridge" />
-    <MESSAGE value="CH-12: Produce evetyhonh" />
-    <MESSAGE value="CH-12: Make everything work" />
-    <MESSAGE value="CH-12: Fix text" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-12: Fix text" />
+    <MESSAGE value="CH-13 Add domains" />
+    <MESSAGE value="CH-13 Move config to App" />
+    <MESSAGE value="CH-13 Delete public" />
+    <MESSAGE value="CH-13 Fix names" />
+    <MESSAGE value="CH-13 Add discovery" />
+    <MESSAGE value="CH-13 Generate from WSDL" />
+    <MESSAGE value="CH-13 Make soap work" />
+    <MESSAGE value="CH-13 CleanUp" />
+    <MESSAGE value="CH-13 Continue with HTTP" />
+    <MESSAGE value="CH-13 Entry Point" />
+    <MESSAGE value="CH-13 Entry Point starts" />
+    <MESSAGE value="CH-13 Entry Point hateoas" />
+    <MESSAGE value="CH-13 Entry Point HAL works" />
+    <MESSAGE value="CH-13 Proceed with Account API" />
+    <MESSAGE value="CH-13 HAL works" />
+    <MESSAGE value="CH-13 Add Cors" />
+    <MESSAGE value="CH-13 Add followers controller" />
+    <MESSAGE value="CH-13 Add post+redirect" />
+    <MESSAGE value="CH-13 Add regular accout" />
+    <MESSAGE value="CH-13 Retrieving events work" />
+    <MESSAGE value="CH-13 Atom looks working" />
+    <MESSAGE value="CH-13 Proceed with reccomendations" />
+    <MESSAGE value="CH-13 Make it work" />
+    <MESSAGE value="CH-13 Clean Up" />
+    <MESSAGE value="CH-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -278,12 +291,52 @@
           <line>19</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch13/social-media-soap/discovery-soap/src/main/java/discovery/recommender/RecommenderEndpoint.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/4.0.0/jaxb-runtime-4.0.0.jar!/org/glassfish/jaxb/runtime/v2/runtime/XMLSerializer.class</url>
+          <line>287</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/4.0.0/jaxb-runtime-4.0.0.jar!/org/glassfish/jaxb/runtime/v2/runtime/JAXBContextImpl.class</url>
+          <line>450</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="leaf.getClazz().getName().contains(&quot;RecommendedUsersResponse&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/4.0.0/jaxb-runtime-4.0.0-sources.jar!/org/glassfish/jaxb/runtime/v2/runtime/JAXBContextImpl.java</url>
+          <line>262</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-oxm/6.0.14/spring-oxm-6.0.14.jar!/org/springframework/oxm/jaxb/Jaxb2Marshaller.class</url>
+          <line>447</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch13/social-media-rest/discovery-reccommendations/src/main/java/discovery/BeganFollowingPollingFeedConsumer.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="jakarta.xml.bind.JAXBException" package="jakarta.xml.bind" />
+          <option name="timeStamp" value="16" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="Arrays.toString(message.productIds)" language="JAVA" custom="java.util.Arrays" />
-      </configuration>
-    </watches-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.glassfish.jaxb.runtime.v2.runtime.JAXBContextImpl" memberName="marshallerPool" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ppp_of_ddd$AccountManagementApp.ic" NAME="AccountManagementApp Coverage Results" MODIFIED="1700591285982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>socialmedia.*</FILTER>
+    </SUITE>
   </component>
 </project>

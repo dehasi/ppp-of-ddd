@@ -1,0 +1,54 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:tns="http://accountmanagement.socialmedia"
+                  targetNamespace="http://accountmanagement.socialmedia">
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+                   targetNamespace="http://accountmanagement.socialmedia">
+            <xs:element name="findUsersFollowers">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="accountId" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="follower">
+                <xs:sequence>
+                    <xs:element name="id" type="xs:string"/>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" name="tags" type="xs:string"/>
+                    </xs:sequence>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="findUsersFollowersResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element maxOccurs="unbounded" name="follower" type="tns:follower"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="findUsersFollowersResponse">
+        <wsdl:part element="tns:findUsersFollowersResponse" name="findUsersFollowersResponse"></wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="followersPort">
+        <wsdl:operation name="findUsersFollowers">
+            <wsdl:output message="tns:findUsersFollowersResponse" name="findUsersFollowersResponse"></wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="followersPortSoap11" type="tns:followersPort">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="findUsersFollowers">
+            <soap:operation soapAction=""/>
+            <wsdl:output name="findUsersFollowersResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="followersPortService">
+        <wsdl:port binding="tns:followersPortSoap11" name="followersPortSoap11">
+            <soap:address location="http://localhost:8080/ws"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
