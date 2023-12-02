@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ch15.name.NameWithPersistenceNormalized.Name" table="name">
+
+        <id name="sid" column="sid" type="string">
+            <generator class="uuid"/>
+        </id>
+
+        <property name="firstName" column="first_name" type="string"/>
+        <property name="surname" column="surname" type="string"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ch15.name.NameWithPersistence.Customer" table="customers">
+
+        <meta attribute="class-description">
+            This class contains the Customer detail.
+        </meta>
+
+        <id name="id" type="string" column="id">
+<!--            <generator class="native"/>-->
+        </id>
+
+        <property name="name" column="name" type="converted::ch15.persistence.denormalized.NameValueObjectPersister"/>
+
+    </class>
+</hibernate-mapping>

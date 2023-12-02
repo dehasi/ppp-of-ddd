@@ -16,6 +16,7 @@
         <module>ch13</module>
         <module>java-replacements</module>
         <module>ch14</module>
+        <module>ch15</module>
     </modules>
 
     <properties>

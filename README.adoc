@@ -14,23 +14,25 @@ The original code written in `C#`, this is `Java` version. Improvements and pull
 |===
 |Original |Equivalent | Comment
 
-| GUID | UUID | As it's just an example,for this project there is no difference
-| decimal | BigDecimal | use https://github.com/dehasi/zeliba#TheComparable[TheComparable] for fluent comparison, as Java doesn't support `>` or `<` for BigDecimal
-| NotImplementedException | own NotImplementedException |
-| ApplicationException | own ApplicationException | later own ApplicationException, sometimes IllegalStateException
-| ArgumentNullException | NullPointerException | usually inside `Objects.requireNonNull`, sometimes IllegalArgumentException
-| InvalidOperationException | own InvalidOperationException |
-
+| GUID | UUID | As it's just an example, for this project, there is no difference
+| decimal | BigDecimal plus https://github.com/dehasi/zeliba#TheComparable[TheComparable] | https://github.com/dehasi/zeliba[ZeLiba] for fluent comparison, as Java doesn't support `>` or `<` for BigDecimal.
+| NotImplementedException | own NotImplementedException | see `java-replacements`
+| ApplicationException | own ApplicationException | see `java-replacements`
+| ArgumentNullException | NullPointerException | usually inside `Objects.requireNonNull`
+| InvalidOperationException | own InvalidOperationException | see `java-replacements`
 
 | ASP.NET | Spring Thymeleaf | See README in CH12
 | NServiceBus | RabbitMQ  | See README in CH12
-| Mass Transit | Kafka  |  | See README in CH12
-| IEnumerable | arrays | Can be also `List<>`
+| Mass Transit | Kafka  |  See README in CH12
+| IEnumerable | Arrays or `List<>` |
 
 | ASP.NET | Spring Thymeleaf | See README in CH12
 | NServiceBus | RabbitMQ  | See README in CH12
 | Mass Transit | Kafka  | See README in CH12
 | `Syndication` |  `rometools` | See README in CH13
+
+| NHibernate | Hibernate | I skipped `fluent-hibernate`, see README in CH15
+| StringExtensions | https://github.com/dehasi/zeliba#TheString[TheString] | Java doesn't support this feature, I used a https://github.com/dehasi/zeliba[ZeLiba].
 |===
 
 
@@ -41,4 +43,8 @@ See link:ch12/README.adoc[] for details.
 
 == Chapter 13
 It's a big chapter, and it requires a separate readme.
-See  link:ch13/README.adoc[]  for details.
+See link:ch13/README.adoc[] for details.
+
+== Chapter 15
+This chapter required a bit of work with Hibernate.
+See link:ch15/README.adoc[] for details.

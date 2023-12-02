@@ -5,7 +5,7 @@ import me.dehasi.replacements.exception.NotImplementedException;
 
 // This example, including associated classes, demonstrates the problems of not making concepts explicit.
 // It does not demonstrate coding and DDD best practices
-class basket {
+class Basket {
     private BasketItems items;
 
     public void add(Product product) {

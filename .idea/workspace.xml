@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/events/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/events/BasketItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/events/BasketItemFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/events/BasketItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/events/DomainEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/events/ProductAddedToBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/events/RecommendationsEventHandlers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch14/src/main/java/ch14/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ch14/src/main/java/ch14/entity/Product.java" afterDir="false" />
-    </list>
+    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +29,10 @@
         <option value="SpringBootCRUD" />
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Empty" />
         <option value="JUnit5 Test Class" />
+        <option value="Leetcode" />
         <option value="Class" />
+        <option value="Empty" />
       </list>
     </option>
   </component>
@@ -69,6 +60,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -89,7 +87,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch12/billing-payments/src/main/java/billing&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch13/social-media-rest/account-management-regular-account/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch15/src/test/resources/denormalized&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -110,13 +108,16 @@
       <recent name="java.me.dehasi.ch05.domainModel.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch15/src/test/resources/denormalized" />
+      <recent name="$PROJECT_DIR$/ch15/src/test/resources/normalized" />
       <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src/main/resources" />
       <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src/main/java" />
       <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src" />
-      <recent name="$PROJECT_DIR$/ch13/social-media-json" />
-      <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-accounts-api/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch15/assets" />
+      <recent name="$PROJECT_DIR$/ch15/src/test/resources/normalized" />
+      <recent name="$PROJECT_DIR$/ch15/src/test/resources/denormalized" />
       <recent name="$PROJECT_DIR$/ch13/social-media-rest" />
       <recent name="$PROJECT_DIR$/ch12/web-app/src/main/java/me/dehasi" />
     </key>
@@ -124,6 +125,7 @@
       <recent name="" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="ch15" />
       <recent name="ch14.events" />
       <recent name="me.dehasi.billing.messages.commands" />
     </key>
@@ -131,14 +133,14 @@
       <recent name="discovery.recommernder" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="discovery" />
-      <recent name="accountmanagement" />
-      <recent name="socialmedia.accountmanagement" />
-      <recent name="promotions" />
-      <recent name="shipping" />
+      <recent name="ch15.name.NameWithPersistenceNormalized" />
+      <recent name="ch15.name.NameWithPersistence" />
+      <recent name="ch15.money.SelfValidating" />
+      <recent name="ch15.money.CombiningMoney" />
+      <recent name="ch15.CustomerWithAddressBook" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeganFollowingPollingFeedConsumer">
+  <component name="RunManager" selected="JUnit.NormalizedPersistenceExampleTest">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -168,54 +170,79 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="AccountManagementEntryPointApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="accountmanagement.AccountManagementEntryPointApp" />
-      <module name="account-management-entry-point" />
+    <configuration name="DenormalizedPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accountmanagement.*" />
+          <option name="PATTERN" value="ch15.persistence.normalized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ch15.persistence.denormalized" />
+      <option name="MAIN_CLASS_NAME" value="ch15.persistence.denormalized.DenormalizedPersistenceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="accountmanagement.AccountsApp" />
-      <module name="account-management-accounts-api" />
+    <configuration name="DenormalizedPersistenceTest.Persisting_denormalized_value_objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accountmanagement.*" />
+          <option name="PATTERN" value="ch15.persistence.normalized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ch15.persistence.denormalized" />
+      <option name="MAIN_CLASS_NAME" value="ch15.persistence.denormalized.DenormalizedPersistenceTest" />
+      <option name="METHOD_NAME" value="Persisting_denormalized_value_objects" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeganFollowingPollingFeedConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="discovery.BeganFollowingPollingFeedConsumer" />
-      <module name="discovery-reccommendations" />
+    <configuration name="DenormalizedPersistence_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="discovery.*" />
+          <option name="PATTERN" value="ch15.persistence.denormalized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ch15.persistence.denormalized" />
+      <option name="MAIN_CLASS_NAME" value="ch15.persistence.denormalized.DenormalizedPersistence_Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularAccountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="accountmanagement.RegularAccountApp" />
-      <module name="account-management-regular-account" />
+    <configuration name="NormalizedPersistenceExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch15" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accountmanagement.*" />
+          <option name="PATTERN" value="ch15.persistence.normalized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ch15.persistence.normalized" />
+      <option name="MAIN_CLASS_NAME" value="ch15.persistence.normalized.NormalizedPersistenceExampleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NormalizedPersistenceExampleTest.Persisting_normalized_value_objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch15.persistence.normalized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch15.persistence.normalized" />
+      <option name="MAIN_CLASS_NAME" value="ch15.persistence.normalized.NormalizedPersistenceExampleTest" />
+      <option name="METHOD_NAME" value="Persisting_normalized_value_objects" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,26 +253,26 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="social-media-rest/docker-compose.yaml.eventstoredb: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="assets/docker-compose.yaml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="services">
             <list>
-              <option value="eventstoredb" />
+              <option value="mysql" />
             </list>
           </option>
-          <option name="sourceFilePath" value="ch13/social-media-rest/docker-compose.yaml" />
+          <option name="sourceFilePath" value="ch15/assets/docker-compose.yaml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.social-media-rest/docker-compose.yaml.eventstoredb: Compose Deployment" />
-        <item itemvalue="Application.RegularAccountApp" />
-        <item itemvalue="Application.BeganFollowingPollingFeedConsumer" />
-        <item itemvalue="Application.AccountsApp" />
-        <item itemvalue="Application.AccountManagementEntryPointApp" />
+        <item itemvalue="JUnit.NormalizedPersistenceExampleTest" />
+        <item itemvalue="JUnit.DenormalizedPersistenceTest" />
+        <item itemvalue="JUnit.NormalizedPersistenceExampleTest.Persisting_normalized_value_objects" />
+        <item itemvalue="Docker.assets/docker-compose.yaml.mysql: Compose Deployment" />
+        <item itemvalue="JUnit.DenormalizedPersistenceTest.Persisting_denormalized_value_objects" />
       </list>
     </recent_temporary>
   </component>
@@ -264,32 +291,33 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-13 Move config to App" />
-    <MESSAGE value="CH-13 Delete public" />
-    <MESSAGE value="CH-13 Fix names" />
-    <MESSAGE value="CH-13 Add discovery" />
-    <MESSAGE value="CH-13 Generate from WSDL" />
-    <MESSAGE value="CH-13 Make soap work" />
-    <MESSAGE value="CH-13 CleanUp" />
-    <MESSAGE value="CH-13 Continue with HTTP" />
-    <MESSAGE value="CH-13 Entry Point" />
-    <MESSAGE value="CH-13 Entry Point starts" />
-    <MESSAGE value="CH-13 Entry Point hateoas" />
-    <MESSAGE value="CH-13 Entry Point HAL works" />
-    <MESSAGE value="CH-13 Proceed with Account API" />
-    <MESSAGE value="CH-13 HAL works" />
-    <MESSAGE value="CH-13 Add Cors" />
-    <MESSAGE value="CH-13 Add followers controller" />
-    <MESSAGE value="CH-13 Add post+redirect" />
-    <MESSAGE value="CH-13 Add regular accout" />
-    <MESSAGE value="CH-13 Retrieving events work" />
-    <MESSAGE value="CH-13 Atom looks working" />
-    <MESSAGE value="CH-13 Proceed with reccomendations" />
-    <MESSAGE value="CH-13 Make it work" />
-    <MESSAGE value="CH-13 Clean Up" />
-    <MESSAGE value="CH-13" />
-    <MESSAGE value="CH-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-14" />
+    <MESSAGE value="CH-15" />
+    <MESSAGE value="CH-15 fix b -&gt; B" />
+    <MESSAGE value="CH-15 Add ValueOb" />
+    <MESSAGE value="CH-15 packages" />
+    <MESSAGE value="CH-15 Add preconditions" />
+    <MESSAGE value="CH-15 Add some tests" />
+    <MESSAGE value="CH-15 Overtime hours" />
+    <MESSAGE value="CH-15 Basic Money" />
+    <MESSAGE value="CH-15 Combining" />
+    <MESSAGE value="CH-15 prepate persistance" />
+    <MESSAGE value="CH-15 Microtypes" />
+    <MESSAGE value="CH-15 Names" />
+    <MESSAGE value="CH-15 Finish easy tests" />
+    <MESSAGE value="CH-15 Hibernate compiles" />
+    <MESSAGE value="CH-15 Something" />
+    <MESSAGE value="CH-15 ID work" />
+    <MESSAGE value="CH-15 Hibernate works with id" />
+    <MESSAGE value="CH-15 Converter works" />
+    <MESSAGE value="CH-15 Cleanup" />
+    <MESSAGE value="CH-15 Start normalizing" />
+    <MESSAGE value="CH-15 Make it work" />
+    <MESSAGE value="CH-15 Add mysql" />
+    <MESSAGE value="CH-15 Move to NameWithPersistenceNormalized" />
+    <MESSAGE value="CH-15 Switch to NameWithPersistenceNormalized" />
+    <MESSAGE value="CH-15 Document" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-15 Document" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -346,6 +374,11 @@
         <PinnedItemInfo parentTag="org.glassfish.jaxb.runtime.v2.runtime.JAXBContextImpl" memberName="marshallerPool" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="session.get" language="JAVA" custom="ch15.name.NameWithPersistence.Name" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ppp_of_ddd$AccountManagementApp.ic" NAME="AccountManagementApp Coverage Results" MODIFIED="1700591285982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
