@@ -15,7 +15,7 @@ The original code written in `C#`, this is `Java` version. Improvements and pull
 |Original |Equivalent | Comment
 
 | GUID | UUID | As it's just an example, for this project, there is no difference
-| decimal | BigDecimal plus https://github.com/dehasi/zeliba#TheComparable[TheComparable] | https://github.com/dehasi/zeliba[ZeLiba] for fluent comparison, as Java doesn't support `>` or `<` for BigDecimal.
+| decimal | BigDecimal with https://github.com/dehasi/zeliba#TheComparable[TheComparable] | https://github.com/dehasi/zeliba[ZeLiba] for fluent comparison, as Java doesn't support `>` or `<` for BigDecimal.
 | NotImplementedException | own NotImplementedException | see `java-replacements`
 | ApplicationException | own ApplicationException | see `java-replacements`
 | ArgumentNullException | NullPointerException | usually inside `Objects.requireNonNull`
@@ -29,7 +29,7 @@ The original code written in `C#`, this is `Java` version. Improvements and pull
 | ASP.NET | Spring Thymeleaf | See README in CH12
 | NServiceBus | RabbitMQ  | See README in CH12
 | Mass Transit | Kafka  | See README in CH12
-| `Syndication` |  `rometools` | See README in CH13
+| Syndication |  rometools | See README in CH13
 
 | NHibernate | Hibernate | I skipped `fluent-hibernate`, see README in CH15
 | StringExtensions | https://github.com/dehasi/zeliba#TheString[TheString] | Java doesn't support this feature, I used a https://github.com/dehasi/zeliba[ZeLiba].

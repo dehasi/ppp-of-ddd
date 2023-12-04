@@ -23,16 +23,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="SpringBootCRUD.java.child.0" />
         <option value="SpringBootCRUD.java.child.1" />
         <option value="SpringBootCRUD" />
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Leetcode" />
-        <option value="Class" />
         <option value="Empty" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,8 +88,8 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch12/billing-payments/src/main/java/billing&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch15/src/test/resources/denormalized&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch16/src/test/java/ch16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch16/src/test/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -101,18 +103,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch16.examples" />
+      <recent name="ch16.OnlineTakeawayOrder.WithNoisyStatePattern" />
+      <recent name="ch16.OnlineTakeawayOrder.WithExplicitModelling" />
+      <recent name="ch16.flight.ValidationWithSpecifications" />
       <recent name="ch14.events" />
-      <recent name="ch14.valueobject" />
-      <recent name="me.dehasi.ecommerce.implicitLogic.model" />
-      <recent name="me.dehasi.ecommerce.explicitLogic.model" />
-      <recent name="java.me.dehasi.ch05.domainModel.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch16/src/test/resources" />
       <recent name="$PROJECT_DIR$/ch15/src/test/resources/denormalized" />
       <recent name="$PROJECT_DIR$/ch15/src/test/resources/normalized" />
       <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src/main/resources" />
       <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src/main/java" />
-      <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ch15/assets" />
@@ -130,7 +132,11 @@
       <recent name="me.dehasi.billing.messages.commands" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="discovery.recommernder" />
+      <recent name="ch16.hotel" />
+      <recent name="ch16.holiday.HolidayBooking" />
+      <recent name="ch16.GlobalCounter" />
+      <recent name="ch16.flight.FlightBooking" />
+      <recent name="ch16.examples" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ch15.name.NameWithPersistenceNormalized" />
@@ -140,7 +146,7 @@
       <recent name="ch15.CustomerWithAddressBook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NormalizedPersistenceExampleTest">
+  <component name="RunManager" selected="JUnit.DatastoreIdGenerationExampleTest">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -170,78 +176,80 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="DenormalizedPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch15" />
+    <configuration name="DatastoreIdGenerationExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.persistence.normalized.*" />
+          <option name="PATTERN" value="ch16.datastore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ch15.persistence.denormalized" />
-      <option name="MAIN_CLASS_NAME" value="ch15.persistence.denormalized.DenormalizedPersistenceTest" />
+      <option name="PACKAGE_NAME" value="ch16.datastore" />
+      <option name="MAIN_CLASS_NAME" value="ch16.datastore.DatastoreIdGenerationExampleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DenormalizedPersistenceTest.Persisting_denormalized_value_objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch15" />
+    <configuration name="DatastoreIdGenerationExampleTest.id_is_set_by_datastore_via_ORM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.persistence.normalized.*" />
+          <option name="PATTERN" value="ch16.datastore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ch15.persistence.denormalized" />
-      <option name="MAIN_CLASS_NAME" value="ch15.persistence.denormalized.DenormalizedPersistenceTest" />
-      <option name="METHOD_NAME" value="Persisting_denormalized_value_objects" />
+      <option name="PACKAGE_NAME" value="ch16.datastore" />
+      <option name="MAIN_CLASS_NAME" value="ch16.datastore.DatastoreIdGenerationExampleTest" />
+      <option name="METHOD_NAME" value="id_is_set_by_datastore_via_ORM" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DenormalizedPersistence_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch15" />
+    <configuration name="HolidayBookingTest.id_is_an_amalgamation_of_travelerId_and_dates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.persistence.denormalized.*" />
+          <option name="PATTERN" value="ch16.holiday.HolidayBooking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ch15.persistence.denormalized" />
-      <option name="MAIN_CLASS_NAME" value="ch15.persistence.denormalized.DenormalizedPersistence_Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ch16.holiday.HolidayBooking" />
+      <option name="MAIN_CLASS_NAME" value="ch16.holiday.HolidayBooking.HolidayBookingTest" />
+      <option name="METHOD_NAME" value="id_is_an_amalgamation_of_travelerId_and_dates" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalizedPersistenceExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch15" />
+    <configuration name="HolidayBookingTest.id_is_an_amalgamation_of_travelerid_and_dates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.persistence.normalized.*" />
+          <option name="PATTERN" value="ch16.holiday.HolidayBooking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ch15.persistence.normalized" />
-      <option name="MAIN_CLASS_NAME" value="ch15.persistence.normalized.NormalizedPersistenceExampleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="ch16.holiday.HolidayBooking" />
+      <option name="MAIN_CLASS_NAME" value="ch16.holiday.HolidayBooking.HolidayBookingTest" />
+      <option name="METHOD_NAME" value="id_is_an_amalgamation_of_travelerid_and_dates" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalizedPersistenceExampleTest.Persisting_normalized_value_objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch15" />
+    <configuration name="HotelTest.hotels_must_have_rooms_else_they_are_not_hotels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch15.persistence.normalized.*" />
+          <option name="PATTERN" value="ch16.hotel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ch15.persistence.normalized" />
-      <option name="MAIN_CLASS_NAME" value="ch15.persistence.normalized.NormalizedPersistenceExampleTest" />
-      <option name="METHOD_NAME" value="Persisting_normalized_value_objects" />
+      <option name="PACKAGE_NAME" value="ch16.hotel" />
+      <option name="MAIN_CLASS_NAME" value="ch16.hotel.HotelTest" />
+      <option name="METHOD_NAME" value="hotels_must_have_rooms_else_they_are_not_hotels" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -253,26 +261,13 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="assets/docker-compose.yaml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="mysql" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="ch15/assets/docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NormalizedPersistenceExampleTest" />
-        <item itemvalue="JUnit.DenormalizedPersistenceTest" />
-        <item itemvalue="JUnit.NormalizedPersistenceExampleTest.Persisting_normalized_value_objects" />
-        <item itemvalue="Docker.assets/docker-compose.yaml.mysql: Compose Deployment" />
-        <item itemvalue="JUnit.DenormalizedPersistenceTest.Persisting_denormalized_value_objects" />
+        <item itemvalue="JUnit.DatastoreIdGenerationExampleTest" />
+        <item itemvalue="JUnit.DatastoreIdGenerationExampleTest.id_is_set_by_datastore_via_ORM" />
+        <item itemvalue="JUnit.HotelTest.hotels_must_have_rooms_else_they_are_not_hotels" />
+        <item itemvalue="JUnit.HolidayBookingTest.id_is_an_amalgamation_of_travelerId_and_dates" />
+        <item itemvalue="JUnit.HolidayBookingTest.id_is_an_amalgamation_of_travelerid_and_dates" />
       </list>
     </recent_temporary>
   </component>
@@ -291,16 +286,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-15" />
-    <MESSAGE value="CH-15 fix b -&gt; B" />
-    <MESSAGE value="CH-15 Add ValueOb" />
-    <MESSAGE value="CH-15 packages" />
-    <MESSAGE value="CH-15 Add preconditions" />
-    <MESSAGE value="CH-15 Add some tests" />
-    <MESSAGE value="CH-15 Overtime hours" />
-    <MESSAGE value="CH-15 Basic Money" />
-    <MESSAGE value="CH-15 Combining" />
-    <MESSAGE value="CH-15 prepate persistance" />
     <MESSAGE value="CH-15 Microtypes" />
     <MESSAGE value="CH-15 Names" />
     <MESSAGE value="CH-15 Finish easy tests" />
@@ -316,7 +301,17 @@
     <MESSAGE value="CH-15 Move to NameWithPersistenceNormalized" />
     <MESSAGE value="CH-15 Switch to NameWithPersistenceNormalized" />
     <MESSAGE value="CH-15 Document" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-15 Document" />
+    <MESSAGE value="CH-16" />
+    <MESSAGE value="CH-16 Hotel" />
+    <MESSAGE value="CH-16 onlune" />
+    <MESSAGE value="CH-16 Order" />
+    <MESSAGE value="CH-16 Match" />
+    <MESSAGE value="CH-16 Customer" />
+    <MESSAGE value="CH-16 Tests" />
+    <MESSAGE value="CH-16 ORM start doing" />
+    <MESSAGE value="CH-16 ORM works" />
+    <MESSAGE value="CH-16 Basket" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-16 Basket" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
