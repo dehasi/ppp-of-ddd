@@ -30,10 +30,10 @@
         <option value="Enum" />
         <option value="Leetcode" />
         <option value="Empty" />
-        <option value="Record" />
-        <option value="Interface" />
         <option value="package-info" />
         <option value="JUnit5 Test Class" />
+        <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -103,11 +103,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch17.restaurantBooking.model.DoubleDispatchAlternative" />
+      <recent name="ch17.restaurantBooking.model" />
+      <recent name="ch17.shipping.model" />
+      <recent name="ch17.insurance.model" />
       <recent name="ch16.examples" />
-      <recent name="ch16.OnlineTakeawayOrder.WithNoisyStatePattern" />
-      <recent name="ch16.OnlineTakeawayOrder.WithExplicitModelling" />
-      <recent name="ch16.flight.ValidationWithSpecifications" />
-      <recent name="ch14.events" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ch16/src/test/resources" />
@@ -139,14 +139,14 @@
       <recent name="ch16.examples" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch17.onlineGaming.withDomainServices.model" />
       <recent name="ch15.name.NameWithPersistenceNormalized" />
       <recent name="ch15.name.NameWithPersistence" />
       <recent name="ch15.money.SelfValidating" />
       <recent name="ch15.money.CombiningMoney" />
-      <recent name="ch15.CustomerWithAddressBook" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatastoreIdGenerationExampleTest">
+  <component name="RunManager" selected="Application.DomainEvents">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -175,6 +175,19 @@
       <setting name="fixLineNumbers" value="false" />
       <setting name="focusEditor" value="false" />
       <method v="2" />
+    </configuration>
+    <configuration name="DomainEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch17.restaurantBooking.model.DomainEvents" />
+      <module name="ch17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch17.restaurantBooking.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DatastoreIdGenerationExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch16" />
@@ -223,22 +236,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HolidayBookingTest.id_is_an_amalgamation_of_travelerid_and_dates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ch16" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch16.holiday.HolidayBooking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ch16.holiday.HolidayBooking" />
-      <option name="MAIN_CLASS_NAME" value="ch16.holiday.HolidayBooking.HolidayBookingTest" />
-      <option name="METHOD_NAME" value="id_is_an_amalgamation_of_travelerid_and_dates" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HotelTest.hotels_must_have_rooms_else_they_are_not_hotels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ch16" />
       <extension name="coverage">
@@ -263,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DomainEvents" />
         <item itemvalue="JUnit.DatastoreIdGenerationExampleTest" />
         <item itemvalue="JUnit.DatastoreIdGenerationExampleTest.id_is_set_by_datastore_via_ORM" />
         <item itemvalue="JUnit.HotelTest.hotels_must_have_rooms_else_they_are_not_hotels" />
         <item itemvalue="JUnit.HolidayBookingTest.id_is_an_amalgamation_of_travelerId_and_dates" />
-        <item itemvalue="JUnit.HolidayBookingTest.id_is_an_amalgamation_of_travelerid_and_dates" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +283,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-15 Microtypes" />
     <MESSAGE value="CH-15 Names" />
     <MESSAGE value="CH-15 Finish easy tests" />
     <MESSAGE value="CH-15 Hibernate compiles" />
@@ -311,7 +307,8 @@
     <MESSAGE value="CH-16 ORM start doing" />
     <MESSAGE value="CH-16 ORM works" />
     <MESSAGE value="CH-16 Basket" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-16 Basket" />
+    <MESSAGE value="CH-17" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-17" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
