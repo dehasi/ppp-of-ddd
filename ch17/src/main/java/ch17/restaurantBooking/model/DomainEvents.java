@@ -16,6 +16,7 @@ public class DomainEvents {
     // [ThreadStatic] = ThreadLocal.withInitial(ArrayList::new);
     // private static List<Delegate> _actions;
     // In the book DomainEvents is a generic class, for the simplicity I made it only for BookingConfirmedByCustomer.
+    // In CH-18 it's implemented in more general way
     private static final List<Consumer<BookingConfirmedByCustomer>> actions = new ArrayList<>();
 
     public static void raise(BookingConfirmedByCustomer eventArgs) {

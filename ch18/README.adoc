@@ -1,0 +1,66 @@
+= CH 18 Domain Events
+:toc:
+
+== Delegate
+
+[source, csharp]
+----
+public delegate void DeliveryGuaranteeFailedHandler(DeliveryGuaranteeFailed evnt);
+public event DeliveryGuaranteeFailedHandler DeliveryGuaranteeFailed;
+----
+
+So far, I replaced Delegate with a functional interface.
+But it's not completely the same.
+
+[source, java]
+----
+@FunctionalInterface
+public interface DeliveryGuaranteeFailedHandler {
+    void handle(DeliveryGuaranteeFailed evnt);
+}
+----
+
+== NativeEvents
+
+As Java does not support events on the language level, there are two solutions.
+
+* Use `java.util.Observable`, but it's deprecated.
+* Implement "an Observer" pattern. That's what I did.
+
+== Static DomainEvents
+
+C# `Delegate` is replaced by Java `Consumer`,
+C# `Action`  is replaced by Java `Supplier`.
+`[ThreadStatic]`  is replaced by `ThreadLocal`.
+
+
+Generics in Java and C# are implemented differently.
+That's why in Java I can't get a `Supplier<?>` type in runtime
+
+That's why to achieve the functionality as below
+[source, csharp]
+----
+ Action<T> typedAction = action as Action<T>;
+----
+
+I have to ask a type of Event explicitly.
+That's  the line of code
+
+[source, csharp]
+----
+DomainEvents.Register<DeliveryGuaranteeFailed>(setTestFlag)
+----
+is written as
+[source, java]
+----
+DomainEvents.register(DeliveryGuaranteeFailed.class, this::setTestFlag)
+----
+
+The method `register` needs a type.
+
+Then I keep all `Supplier` in a `Map<Class, Supplier>`.
+
+
+== NServiceBus
+
+I used Spring `ApplicationEventPublisher`.

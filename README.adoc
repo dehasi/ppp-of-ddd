@@ -27,7 +27,7 @@ The original code written in `C#`, this is `Java` version. Improvements and pull
 | IEnumerable | Arrays or `List<>` |
 
 | ASP.NET | Spring Thymeleaf | See README in CH12
-| NServiceBus | RabbitMQ  | See README in CH12
+| NServiceBus | RabbitMQ, ApplicationEventPublisher  | See README in CH12 and CH18
 | Mass Transit | Kafka  | See README in CH12
 | Syndication |  rometools | See README in CH13
 
@@ -48,3 +48,8 @@ See link:ch13/README.adoc[] for details.
 == Chapter 15
 This chapter required a bit of work with Hibernate.
 See link:ch15/README.adoc[] for details.
+
+
+== Chapter 18
+This chapter required a bit of work with "Static" `DomainEvents`.
+See link:ch18/README.adoc[] for details.
