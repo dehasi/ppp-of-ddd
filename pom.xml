@@ -20,6 +20,7 @@
         <module>ch16</module>
         <module>ch17</module>
         <module>ch18</module>
+        <module>ch19</module>
     </modules>
 
     <properties>

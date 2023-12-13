@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="" />
+    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,14 +30,15 @@
         <option value="SpringBootCRUD" />
         <option value="HTML File" />
         <option value="Leetcode" />
-        <option value="package-info" />
-        <option value="Record" />
         <option value="Empty" />
         <option value="Python Script" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="module-info" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -104,11 +107,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch19.listings.model.listingFormat.auctions" />
       <recent name="serviceBus.application.events" />
       <recent name="serviceBus.model.events" />
       <recent name="serviceBus.model" />
       <recent name="StaticDomainEvents.application.events" />
-      <recent name="StaticDomainEvents.model.events" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ch18/online-takeaway-store/src/main/java" />
@@ -118,11 +121,11 @@
       <recent name="$PROJECT_DIR$/ch13/social-media-rest/account-management-regular-account/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch19/src/main/java/ch19/common" />
+      <recent name="$PROJECT_DIR$/ch19/src/main/java/ch19/listings" />
       <recent name="$PROJECT_DIR$/ch18" />
       <recent name="$PROJECT_DIR$/ch15/assets" />
       <recent name="$PROJECT_DIR$/ch15/src/test/resources/normalized" />
-      <recent name="$PROJECT_DIR$/ch15/src/test/resources/denormalized" />
-      <recent name="$PROJECT_DIR$/ch13/social-media-rest" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -140,11 +143,11 @@
       <recent name="ch16.holiday.HolidayBooking" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch19.listings.application.watching.businessUseCases" />
+      <recent name="ch19.listings.model.listings" />
+      <recent name="ch19.listings.model.qanda" />
       <recent name="ch17.onlineGaming.withDomainServices.model" />
       <recent name="ch15.name.NameWithPersistenceNormalized" />
-      <recent name="ch15.name.NameWithPersistence" />
-      <recent name="ch15.money.SelfValidating" />
-      <recent name="ch15.money.CombiningMoney" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.OrderForDeliveryTest.a_delivery_guarantee_failed_event_will_be_raised">
@@ -278,14 +281,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-15 Finish easy tests" />
-    <MESSAGE value="CH-15 Hibernate compiles" />
-    <MESSAGE value="CH-15 Something" />
-    <MESSAGE value="CH-15 ID work" />
-    <MESSAGE value="CH-15 Hibernate works with id" />
-    <MESSAGE value="CH-15 Converter works" />
-    <MESSAGE value="CH-15 Cleanup" />
-    <MESSAGE value="CH-15 Start normalizing" />
     <MESSAGE value="CH-15 Make it work" />
     <MESSAGE value="CH-15 Add mysql" />
     <MESSAGE value="CH-15 Move to NameWithPersistenceNormalized" />
@@ -303,7 +298,15 @@
     <MESSAGE value="CH-16 Basket" />
     <MESSAGE value="CH-17" />
     <MESSAGE value="CH-18" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-18" />
+    <MESSAGE value="CH-19" />
+    <MESSAGE value="CH-19 Money" />
+    <MESSAGE value="CH-19 Watch" />
+    <MESSAGE value="CH-19 Infra" />
+    <MESSAGE value="CH-19 Listitngs" />
+    <MESSAGE value="CH-19 Auctinas" />
+    <MESSAGE value="CH-19 Q&amp;A" />
+    <MESSAGE value="CH-19 W" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-19 W" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
