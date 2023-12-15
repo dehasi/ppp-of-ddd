@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="36e327e9-16a1-4671-8826-32298faf4625" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +31,12 @@
         <option value="Empty" />
         <option value="Python Script" />
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
-        <option value="Class" />
-        <option value="Record" />
-        <option value="Interface" />
         <option value="module-info" />
         <option value="package-info" />
+        <option value="Record" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -107,11 +105,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="ch19.listings.model.listingFormat.auctions" />
-      <recent name="serviceBus.application.events" />
-      <recent name="serviceBus.model.events" />
-      <recent name="serviceBus.model" />
-      <recent name="StaticDomainEvents.application.events" />
+      <recent name="ch12.listing8.infrastructure" />
+      <recent name="ch12.listing8.domain" />
+      <recent name="ch12.listing7" />
+      <recent name="ch12.listing6" />
+      <recent name="ch12.listing5_6_7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ch18/online-takeaway-store/src/main/java" />
@@ -131,6 +129,7 @@
       <recent name="" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="ch12.listing5_6_7" />
       <recent name="ch15" />
       <recent name="ch14.events" />
       <recent name="me.dehasi.billing.messages.commands" />
@@ -143,11 +142,11 @@
       <recent name="ch16.holiday.HolidayBooking" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ch19.listings.application.watching.businessUseCases" />
-      <recent name="ch19.listings.model.listings" />
-      <recent name="ch19.listings.model.qanda" />
-      <recent name="ch17.onlineGaming.withDomainServices.model" />
-      <recent name="ch15.name.NameWithPersistenceNormalized" />
+      <recent name="ch12.listing6" />
+      <recent name="ch12.listing7" />
+      <recent name="ch12.listing5_6_7" />
+      <recent name="ch12.listing3" />
+      <recent name="ch12.listing2" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.OrderForDeliveryTest.a_delivery_guarantee_failed_event_will_be_raised">
@@ -281,7 +280,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-15 Make it work" />
     <MESSAGE value="CH-15 Add mysql" />
     <MESSAGE value="CH-15 Move to NameWithPersistenceNormalized" />
     <MESSAGE value="CH-15 Switch to NameWithPersistenceNormalized" />
@@ -306,7 +304,8 @@
     <MESSAGE value="CH-19 Auctinas" />
     <MESSAGE value="CH-19 Q&amp;A" />
     <MESSAGE value="CH-19 W" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-19 W" />
+    <MESSAGE value="CH-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-20" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
