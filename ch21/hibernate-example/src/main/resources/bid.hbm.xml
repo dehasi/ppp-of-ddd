@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="hibernateexample.model.bidHistory.Bid" table="bid_history" lazy="false">
+
+        <id name="id" column="id" type="converted::hibernateexample.infrastructure.hibernate.UuidConverter" access="field">
+            <generator class="hibernateexample.infrastructure.hibernate.CustomUuidGenerator"/>
+        </id>
+
+        <property name="auctionId" column="auction_id" not-null="false" access="field" type="converted::hibernateexample.infrastructure.hibernate.UuidConverter"/>
+        <property name="bidderId" column="bidder_id" not-null="false" access="field" type="converted::hibernateexample.infrastructure.hibernate.UuidConverter"/>
+
+        <component name="amountBid" class="hibernateexample.model.auction.Money" access="field">
+            <property name="value" column="bid" not-null="false" access="field"/>
+        </component>
+
+        <property name="timeOfBid" column="time_of_bid" not-null="false" access="field"/>
+
+    </class>
+</hibernate-mapping>

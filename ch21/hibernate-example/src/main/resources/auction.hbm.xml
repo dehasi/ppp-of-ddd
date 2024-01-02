@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="hibernateexample.model.auction.Auction" table="auctions">
+
+        <id name="id" column="id" type="converted::hibernateexample.infrastructure.hibernate.UuidConverter"/>
+
+        <component name="startingPrice" class="hibernateexample.model.auction.Money" access="field">
+            <property name="value" column="bid" not-null="false" access="field"/>
+        </component>
+
+        <property name="endsAt" column="auction_ends" not-null="false" access="field"/>
+
+
+        <component name="winningBid" class="hibernateexample.model.auction.WinningBid" access="field">
+
+            <property name="bidder" column="bidder_member_id" type="converted::hibernateexample.infrastructure.hibernate.UuidConverter" not-null="false" access="field"/>
+
+            <property name="timeOfBid" column="time_of_bid" not-null="false" access="field"/>
+
+            <component name="maximumBid" class="hibernateexample.model.auction.Money" access="field">
+                <property name="value" column="maximum_bid" not-null="false" access="field"/>
+            </component>
+
+            <component name="currentAuctionPrice" class="hibernateexample.model.auction.Price" access="field">
+                <component name="amount" class="hibernateexample.model.auction.Money">
+                    <property name="value" column="current_price" not-null="false" access="field"/>
+                </component>
+            </component>
+        </component>
+    </class>
+</hibernate-mapping>

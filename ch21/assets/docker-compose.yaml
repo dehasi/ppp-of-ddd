@@ -1,0 +1,23 @@
+# tag::header[]
+version: '3'
+services:
+# end::header[]
+#tag::mysql[]
+  mysql:
+    image:  mysql:8
+    ports:
+      - 12345:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+#end::mysql[]
+#tag::ravendb[]
+  ravendb:
+    image: ravendb/ravendb:6.0.1-ubuntu.22.04-x64
+    ports:
+      - 8080:8080
+      - 38888:38888
+    environment:
+      RAVEN_Setup_Mode: None
+      RAVEN_License_Eula_Accepted: true
+      RAVEN_Security_UnsecuredAccessAllowed: PrivateNetwork
+#end::ravendb[]
