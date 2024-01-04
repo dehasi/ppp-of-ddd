@@ -216,7 +216,10 @@ I use `SQLite`.
 JOOQ generates  DB Context, DTOs and mappings for DTOs.
 DTOs has suffix `Record` and it seems it implements `ActiveRecord` pattern.
 In production, generated code stays in `target/generated-sources/packeage.name`.
-In this project I put the geneated code to `src/main/sqliteexample/infrastructure/jooq` only for demonstration purpose.
+In this project I put the generated code to `src/main/sqliteexample/infrastructure/jooq` only for demonstration purpose.
+
+If you want to regenerate it, delete `<skip>true</skip>`
+in `jooq-codegen-maven` plugin.
 
 === Problems
 

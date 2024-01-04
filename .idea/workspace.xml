@@ -29,13 +29,13 @@
         <option value="HTML File" />
         <option value="Leetcode" />
         <option value="Python Script" />
-        <option value="JUnit5 Test Class" />
         <option value="module-info" />
         <option value="package-info" />
-        <option value="Record" />
         <option value="Enum" />
         <option value="Empty" />
         <option value="Interface" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -80,50 +80,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;Empty&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch16/src/test/java/ch16&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch21/assets/jdbi&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "DefaultPlantUmlFileTemplate": "Empty",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "last_directory_selection": "/Users/ravil/projects/ppp-of-ddd/ch16/src/test/java/ch16",
+    "last_opened_file_path": "/Users/ravil/projects/ppp-of-ddd/ch22/eventstoredb-eventstore/src/main/java/eventstoredb",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="eventstoredb.infrastructure" />
+      <recent name="ravendbeventstore.model.PayAsYouGo" />
+      <recent name="ravendbeventstore.infrastructure" />
+      <recent name="ch22.eventstore" />
       <recent name="jdbiexample.infrastructure" />
-      <recent name="ch12.listing8.infrastructure" />
-      <recent name="ch12.listing8.domain" />
-      <recent name="ch12.listing7" />
-      <recent name="ch12.listing6" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch22/eventstoredb-eventstore/src/main/java/eventstoredb" />
+      <recent name="$PROJECT_DIR$/ch22/sqlite-eventstore/src/main/java/sqliteeventstore" />
       <recent name="$PROJECT_DIR$/ch21/assets/jdbi" />
       <recent name="$PROJECT_DIR$/ch21/jdbi-example/src/main/resources" />
       <recent name="$PROJECT_DIR$/ch21/jdbi-example/src/main/java" />
-      <recent name="$PROJECT_DIR$/ch21/tbd-example/src/main/java/tbd/infrastructure" />
-      <recent name="$PROJECT_DIR$/ch21/tbd-example/src/main/java/tbd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch22/ravendb-eventstore" />
       <recent name="$PROJECT_DIR$/ch21/tbd-example/target/classes" />
       <recent name="$PROJECT_DIR$/ch21/assets/hibernate" />
       <recent name="$PROJECT_DIR$/ch19/src/main/java/ch19/common" />
       <recent name="$PROJECT_DIR$/ch19/src/main/java/ch19/listings" />
-      <recent name="$PROJECT_DIR$/ch18" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -135,21 +135,21 @@
       <recent name="me.dehasi.billing.messages.commands" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="eventstoredb.infrastructure" />
+      <recent name="sqliteeventstore.model.PayAsYouGo" />
       <recent name="StaticDomainEvents.model" />
       <recent name="ReturnEvents.model" />
       <recent name="StaticDomainEvents.application" />
-      <recent name="ch16.hotel" />
-      <recent name="ch16.holiday.HolidayBooking" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ravendbeventstore.model.PayAsYouGo" />
+      <recent name="ravendbeventstore.infrastructure" />
+      <recent name="ravendbeventstore" />
       <recent name="tbd.model.bidHistory" />
       <recent name="hibernateexample.model.auction" />
-      <recent name="hibernateexample.infrastructure" />
-      <recent name="ch19.listings.infrastructure" />
-      <recent name="ch12.listing6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JOOQProgram">
+  <component name="RunManager" selected="JUnit.ImportTestData">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -179,13 +179,12 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="JDBIProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbiexample.presentation.JDBIProgram" />
-      <module name="jdbi-example" />
-      <option name="PROGRAM_PARAMETERS" value="jdbc:sqlite:$PROJECT_DIR$/ch21/jdbi-example/src/main/resources/ch21.db" />
+    <configuration name="ESDBProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eventstoredb.presentation.ESDBProgram" />
+      <module name="eventstoredb-eventstore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbiexample.presentation.*" />
+          <option name="PATTERN" value="eventstoredb.presentation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,42 +192,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JOOQProgram" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="jooqexample.presentation.JOOQProgram" />
-      <module name="jooq-example" />
-      <option name="PROGRAM_PARAMETERS" value="jdbc:sqlite:$PROJECT_DIR$/ch21/jooq-example/src/main/resources/ch21.db" />
+    <configuration name="EventStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eventstoredb-eventstore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jooqexample.presentation.*" />
+          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
+      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.EventStoreTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hibernateexample.presentation.Program" />
-      <module name="hibernate-example" />
+    <configuration name="EventStoreTest.snapshots_are_persisted_and_the_latest_one_is_always_returned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eventstoredb-eventstore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hibernateexample.presentation.*" />
+          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
+      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.EventStoreTest" />
+      <option name="METHOD_NAME" value="snapshots_are_persisted_and_the_latest_one_is_always_returned" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramRavenDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ravendbexample.presentation.ProgramRavenDB" />
-      <module name="raven-db-example" />
+    <configuration name="ImportTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eventstoredb-eventstore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ravendbexample.presentation.*" />
+          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
+      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.ImportTestData" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eventstoredb-eventstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
+      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.ImportTestData" />
+      <option name="METHOD_NAME" value="import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,18 +261,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.JOOQProgram" />
-      <item itemvalue="Application.JDBIProgram" />
-      <item itemvalue="Application.Program" />
-      <item itemvalue="Application.ProgramRavenDB" />
+      <item itemvalue="Application.ESDBProgram" />
+      <item itemvalue="JUnit.EventStoreTest" />
+      <item itemvalue="JUnit.EventStoreTest.snapshots_are_persisted_and_the_latest_one_is_always_returned" />
+      <item itemvalue="JUnit.ImportTestData" />
+      <item itemvalue="JUnit.ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JOOQProgram" />
-        <item itemvalue="Application.JOOQProgram" />
-        <item itemvalue="Application.JDBIProgram" />
-        <item itemvalue="Application.ProgramRavenDB" />
-        <item itemvalue="Application.Program" />
+        <item itemvalue="JUnit.ImportTestData" />
+        <item itemvalue="JUnit.ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
+        <item itemvalue="Application.ESDBProgram" />
+        <item itemvalue="JUnit.EventStoreTest" />
+        <item itemvalue="JUnit.EventStoreTest.snapshots_are_persisted_and_the_latest_one_is_always_returned" />
       </list>
     </recent_temporary>
   </component>
@@ -270,175 +292,50 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-21 UoW" />
-    <MESSAGE value="CH-21 AuctionRepository" />
-    <MESSAGE value="CH-21 BidHistoryRepository" />
-    <MESSAGE value="CH-21 Generate Jooq" />
-    <MESSAGE value="CH-21 Generate Jooq to target" />
-    <MESSAGE value="CH-21 Play with jooq" />
-    <MESSAGE value="CH-21 Smth compiles" />
-    <MESSAGE value="CH-21 Smth starts, jooq still fails" />
-    <MESSAGE value="CH-21 Use SQLite" />
-    <MESSAGE value="CH-21 Generate from SQLite" />
-    <MESSAGE value="CH-21 Proceed with repos from SQLite" />
-    <MESSAGE value="CH-21 Seems it's works" />
-    <MESSAGE value="CH-21 SQLite works" />
-    <MESSAGE value="CH-21 Clean Up" />
-    <MESSAGE value="CH-21 Add JDBI template" />
-    <MESSAGE value="CH-21 Rename to JOOQ" />
-    <MESSAGE value="CH-21 JDBI prep" />
-    <MESSAGE value="CH-21 Prepare schema" />
-    <MESSAGE value="CH-21 Prepare handler" />
-    <MESSAGE value="CH-21 Prepare mappers" />
-    <MESSAGE value="CH-21 Starts working" />
-    <MESSAGE value="CH-21 Make it work" />
-    <MESSAGE value="CH-21 It works" />
-    <MESSAGE value="CH-21 Move JOOQ generated to src" />
-    <MESSAGE value="CH-21 Text" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-21 Text" />
+    <MESSAGE value="CH-22 Use RavenDB" />
+    <MESSAGE value="CH-22 Add some classes" />
+    <MESSAGE value="CH-22 Add business objects" />
+    <MESSAGE value="CH-22 Add infra" />
+    <MESSAGE value="CH-22 Add domain" />
+    <MESSAGE value="CH-22 Upgrade java" />
+    <MESSAGE value="CH-22 Bootstrap" />
+    <MESSAGE value="CH-22 Program" />
+    <MESSAGE value="CH-22 Seems working" />
+    <MESSAGE value="CH-22 Add screenshots" />
+    <MESSAGE value="CH-22 Make sql compile" />
+    <MESSAGE value="CH-22 Add SQL schema" />
+    <MESSAGE value="CH-22 Use spring" />
+    <MESSAGE value="CH-22 Fix foreig key issue" />
+    <MESSAGE value="CH-22 Make it work-ish" />
+    <MESSAGE value="CH-22 Cleanup" />
+    <MESSAGE value="CH-22 EventstoreDB" />
+    <MESSAGE value="CH-22 EventstoreDB compiles" />
+    <MESSAGE value="CH-22 EventstoreDB impl" />
+    <MESSAGE value="CH-22 EventstoreDB can't work with java 8 time" />
+    <MESSAGE value="CH-22 Save events" />
+    <MESSAGE value="CH-22 Make it work" />
+    <MESSAGE value="CH-22 Text" />
+    <MESSAGE value="CH-22 Screenshots" />
+    <MESSAGE value="CH-22 Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-22 Tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch12/web-app/src/main/java/me/dehasi/sales/orders/orderCreated/PlaceOrderHandler.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch12/billing-payments/src/main/java/billing/PaymentAccepted/OrderCreatedHandler.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch13/social-media-soap/discovery-soap/src/main/java/discovery/recommender/RecommenderEndpoint.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/4.0.0/jaxb-runtime-4.0.0.jar!/org/glassfish/jaxb/runtime/v2/runtime/XMLSerializer.class</url>
-          <line>287</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/4.0.0/jaxb-runtime-4.0.0.jar!/org/glassfish/jaxb/runtime/v2/runtime/JAXBContextImpl.class</url>
-          <line>450</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="leaf.getClazz().getName().contains(&quot;RecommendedUsersResponse&quot;)" language="JAVA" />
-          <url>jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/4.0.0/jaxb-runtime-4.0.0-sources.jar!/org/glassfish/jaxb/runtime/v2/runtime/JAXBContextImpl.java</url>
-          <line>262</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-oxm/6.0.14/spring-oxm-6.0.14.jar!/org/springframework/oxm/jaxb/Jaxb2Marshaller.class</url>
-          <line>447</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch13/social-media-rest/discovery-reccommendations/src/main/java/discovery/BeganFollowingPollingFeedConsumer.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch18/src/test/java/StaticDomainEvents/model/OrderForDeliveryTest.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch18/src/main/java/StaticDomainEvents/application/ConfirmDeliveryOfOrder.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch18/src/test/java/StaticDomainEvents/application/ConfirmDeliveryOfOrderTest.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch18/src/test/java/StaticDomainEvents/application/ConfirmDeliveryOfOrderTest.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch18/src/main/java/StaticDomainEvents/application/ConfirmDeliveryOfOrder.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch18/src/main/java/StaticDomainEvents/model/ThirtyMinuteDeliveryGuaranteeOffer.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/hibernate-example/src/main/java/hibernateexample/model/auction/Money.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final-sources.jar!/org/hibernate/property/access/internal/PropertyAccessStrategyChainedImpl.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final-sources.jar!/org/hibernate/jpa/spi/NativeQueryConstructorTransformer.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/raven-db-example/src/main/java/ravendbexample/presentation/ProgramRavenDB.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/jooq-example/src/main/java/jdbiexample/Bootstrapper.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/jooq-example/src/main/java/jdbiexample/application/businessUseCases/BidOnAuction.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/jooq-example/src/main/java/jdbiexample/application/businessUseCases/BidOnAuction.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/jooq-example/src/main/java/jdbiexample/application/businessUseCases/BidOnAuction.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/jdbi-example/src/main/java/jdbiexample/infrastructure/AuctionRepository.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/jdbi-example/src/main/java/jdbiexample/application/businessUseCases/BidOnAuction.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ch21/jdbi-example/src/main/java/jdbiexample/infrastructure/AuctionRepository.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
-          <properties class="jakarta.xml.bind.JAXBException" package="jakarta.xml.bind" />
-          <option name="timeStamp" value="16" />
+          <properties class="com.fasterxml.jackson.databind.exc.InvalidDefinitionException" package="com.fasterxml.jackson.databind.exc" />
+          <option name="timeStamp" value="126" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/ch21/jdbi-example/src/main/java/jdbiexample/infrastructure/AuctionRepository.java</url>
-          <line>69</line>
-          <properties class="jdbiexample.infrastructure.AuctionRepository" method="persistCreationOf">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="88" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch22/eventstoredb-eventstore/src/main/java/eventstoredb/model/PayAsYouGo/Money.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch22/eventstoredb-eventstore/src/test/java/eventstoredb/infrastructure/ImportTestData.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -452,7 +349,9 @@
         <watch expression="session.get" language="JAVA" custom="ch15.name.NameWithPersistence.Name" />
       </configuration>
       <configuration name="Application">
-        <watch expression="system.inTransaction().select(&quot;SELECT * FROM auctions WHERE id = ?&quot;, &quot;9d8c93a0-f034-469d-9a7d-c91c9d7fb24a&quot;).mapTo(AuctionDTO.class).findOne()" language="JAVA" />
+        <watch expression="getValueInstantiator().canInstantiate()" language="JAVA" />
+        <watch expression="inclusiveMinutesOffer.isSatisfiedBy(credit)" language="JAVA" />
+        <watch expression="eventStore.getStream(streamName, fromEventNumber, toEventNumber);" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

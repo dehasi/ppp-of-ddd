@@ -10,11 +10,11 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>java-replacements</module>
         <module>ch05</module>
         <module>ch10</module>
         <module>ch12</module>
         <module>ch13</module>
-        <module>java-replacements</module>
         <module>ch14</module>
         <module>ch15</module>
         <module>ch16</module>
@@ -23,12 +23,13 @@
         <module>ch19</module>
         <module>ch20</module>
         <module>ch21</module>
+        <module>ch22</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
 </project>

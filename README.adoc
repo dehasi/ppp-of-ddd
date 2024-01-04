@@ -6,7 +6,7 @@ Java variant code for the book  https://www.goodreads.com/en/book/show/25531393[
 
 image::assets/book-cover.png[]
 
-The original code is written in `C#`, it is an adoption for `Java`.
+The https://github.com/elbandit/PPPDDD[original code] is written in `C#`, it is an adoption for `Java`.
 
 == Replacements
 
@@ -51,6 +51,10 @@ Besides replacement of technologies, there is some language "sugar" to keep code
 
 == Chapters with Additional Readme
 
+The chapters below contain a detailed description of
+what I did, which replacements I used and why,
+which problems I'd faced and how I solved or worked around them.
+
 === Chapter 12
 It's a big chapter, and it requires a separate readme.
 See link:ch12/README.adoc[] for details.
@@ -70,6 +74,10 @@ See link:ch18/README.adoc[] for details.
 === Chapter 21
 This chapter required a bit of work with ORMs and databases.
 See link:ch21/README.adoc[] for details.
+
+=== Chapter 22
+This chapter required a bit of work with event sourcing.
+See link:ch22/README.adoc[] for details.
 
 == Contributing
 
