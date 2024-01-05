@@ -26,16 +26,16 @@
         <option value="SpringBootCRUD.java.child.0" />
         <option value="SpringBootCRUD.java.child.1" />
         <option value="SpringBootCRUD" />
-        <option value="HTML File" />
         <option value="Leetcode" />
         <option value="Python Script" />
         <option value="module-info" />
         <option value="package-info" />
         <option value="Enum" />
-        <option value="Empty" />
         <option value="Interface" />
         <option value="Record" />
         <option value="JUnit5 Test Class" />
+        <option value="Empty" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -91,11 +91,11 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "last_directory_selection": "/Users/ravil/projects/ppp-of-ddd/ch16/src/test/java/ch16",
-    "last_opened_file_path": "/Users/ravil/projects/ppp-of-ddd/ch22/eventstoredb-eventstore/src/main/java/eventstoredb",
+    "last_opened_file_path": "/Users/ravil/projects/ppp-of-ddd/ch23/dist/src/main/resources/static",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -112,23 +112,24 @@
       <recent name="jdbiexample.infrastructure" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ch22/eventstoredb-eventstore/src/main/java/eventstoredb" />
-      <recent name="$PROJECT_DIR$/ch22/sqlite-eventstore/src/main/java/sqliteeventstore" />
-      <recent name="$PROJECT_DIR$/ch21/assets/jdbi" />
-      <recent name="$PROJECT_DIR$/ch21/jdbi-example/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ch21/jdbi-example/src/main/java" />
+      <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch23/assets" />
+      <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/static/scripts" />
+      <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/templates/CatalogBoundedContext" />
       <recent name="$PROJECT_DIR$/ch22/ravendb-eventstore" />
-      <recent name="$PROJECT_DIR$/ch21/tbd-example/target/classes" />
-      <recent name="$PROJECT_DIR$/ch21/assets/hibernate" />
-      <recent name="$PROJECT_DIR$/ch19/src/main/java/ch19/common" />
-      <recent name="$PROJECT_DIR$/ch19/src/main/java/ch19/listings" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="uicomp.application.controllers" />
       <recent name="ch12.listing5_6_7" />
       <recent name="ch15" />
       <recent name="ch14.events" />
@@ -142,14 +143,14 @@
       <recent name="StaticDomainEvents.application" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="uicomp.dist.controllers" />
+      <recent name="uicomp.dist" />
       <recent name="ravendbeventstore.model.PayAsYouGo" />
       <recent name="ravendbeventstore.infrastructure" />
       <recent name="ravendbeventstore" />
-      <recent name="tbd.model.bidHistory" />
-      <recent name="hibernateexample.model.auction" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ImportTestData">
+  <component name="RunManager" selected="Application.DistUIComp">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -179,6 +180,19 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="DistUIComp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uicomp.dist.DistUIComp" />
+      <module name="dist" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uicomp.dist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ESDBProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eventstoredb.presentation.ESDBProgram" />
       <module name="eventstoredb-eventstore" />
@@ -192,33 +206,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventStoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eventstoredb-eventstore" />
+    <configuration name="NonDistUIComp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uicomp.NonDistUIComp" />
+      <module name="non-dist" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
+          <option name="PATTERN" value="uicomp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
-      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.EventStoreTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventStoreTest.snapshots_are_persisted_and_the_latest_one_is_always_returned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eventstoredb-eventstore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
-      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.EventStoreTest" />
-      <option name="METHOD_NAME" value="snapshots_are_persisted_and_the_latest_one_is_always_returned" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,19 +257,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.DistUIComp" />
+      <item itemvalue="Application.NonDistUIComp" />
       <item itemvalue="Application.ESDBProgram" />
-      <item itemvalue="JUnit.EventStoreTest" />
-      <item itemvalue="JUnit.EventStoreTest.snapshots_are_persisted_and_the_latest_one_is_always_returned" />
       <item itemvalue="JUnit.ImportTestData" />
       <item itemvalue="JUnit.ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DistUIComp" />
+        <item itemvalue="Application.NonDistUIComp" />
         <item itemvalue="JUnit.ImportTestData" />
         <item itemvalue="JUnit.ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
         <item itemvalue="Application.ESDBProgram" />
-        <item itemvalue="JUnit.EventStoreTest" />
-        <item itemvalue="JUnit.EventStoreTest.snapshots_are_persisted_and_the_latest_one_is_always_returned" />
       </list>
     </recent_temporary>
   </component>
@@ -292,32 +288,32 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-22 Use RavenDB" />
-    <MESSAGE value="CH-22 Add some classes" />
-    <MESSAGE value="CH-22 Add business objects" />
-    <MESSAGE value="CH-22 Add infra" />
-    <MESSAGE value="CH-22 Add domain" />
-    <MESSAGE value="CH-22 Upgrade java" />
-    <MESSAGE value="CH-22 Bootstrap" />
-    <MESSAGE value="CH-22 Program" />
-    <MESSAGE value="CH-22 Seems working" />
-    <MESSAGE value="CH-22 Add screenshots" />
-    <MESSAGE value="CH-22 Make sql compile" />
-    <MESSAGE value="CH-22 Add SQL schema" />
-    <MESSAGE value="CH-22 Use spring" />
-    <MESSAGE value="CH-22 Fix foreig key issue" />
-    <MESSAGE value="CH-22 Make it work-ish" />
-    <MESSAGE value="CH-22 Cleanup" />
-    <MESSAGE value="CH-22 EventstoreDB" />
-    <MESSAGE value="CH-22 EventstoreDB compiles" />
-    <MESSAGE value="CH-22 EventstoreDB impl" />
     <MESSAGE value="CH-22 EventstoreDB can't work with java 8 time" />
     <MESSAGE value="CH-22 Save events" />
     <MESSAGE value="CH-22 Make it work" />
     <MESSAGE value="CH-22 Text" />
     <MESSAGE value="CH-22 Screenshots" />
     <MESSAGE value="CH-22 Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-22 Tests" />
+    <MESSAGE value="CH-23" />
+    <MESSAGE value="CH-23 Web App Skeleton" />
+    <MESSAGE value="CH-23 Thymeleaf Skeleton" />
+    <MESSAGE value="CH-23 Fragments seems can include" />
+    <MESSAGE value="CH-23 Can iterate" />
+    <MESSAGE value="CH-23 Use new syntax" />
+    <MESSAGE value="CH-23 Replace text" />
+    <MESSAGE value="CH-23 Can render manually" />
+    <MESSAGE value="CH-23 Manual render works" />
+    <MESSAGE value="CH-23 Internal classes work" />
+    <MESSAGE value="CH-23 Refactoring" />
+    <MESSAGE value="CH-23 Still not ideal render" />
+    <MESSAGE value="CH-23 Price" />
+    <MESSAGE value="CH-23 Delivery optionn" />
+    <MESSAGE value="CH-23 Delivery options works" />
+    <MESSAGE value="CH-23 Add static content" />
+    <MESSAGE value="CH-23 Add index page" />
+    <MESSAGE value="CH-23 JS works" />
+    <MESSAGE value="CH-23 JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-23 JS" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

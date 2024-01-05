@@ -1,0 +1,48 @@
+= CH-23 Architecting Application User Interfaces
+:toc:
+
+== Replacements
+
+.replacements
+|===
+|Original |Equivalent | Comment
+| ASP.NET | Spring Boot + Thymeleaf |
+|===
+
+== Non Distributed
+
+I use `ThymeLeaf`.
+
+=== Problems
+==== RenderAction
+
+I don't know the exact replacement for `RenderAction`.
+
+----
+@{ Html.RenderAction("ItemInBasket", "CatalogBoundedContext", new { productId = pid}); }
+----
+
+`ThymeLeaf` can insert fragment of HTML. But I couldn't figure out how to pass data there.
+[source, html]
+----
+<!-- inserts fragment.html -->
+<div th:insert="~{/fragment}"></div>
+----
+
+My workaround is to explicitly call Java code.
+
+----
+<div th:remove="tag" th:utext="${@CatalogBoundedContextController.itemInBasket(pid)}"></div>
+----
+
+=== Result Run
+I replaced the image and use a local one instead of going to the internet.
+
+image::assets/non-distributed.png[]
+
+
+== Distributed
+
+=== Result Run
+
+image::assets/distributed.png[]

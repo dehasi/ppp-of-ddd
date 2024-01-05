@@ -1,0 +1,9 @@
+<div class="deliveryOptions">
+    <h2>Delivery Options</h2>
+
+    <div th:each="option: ${options}">
+        <input type="radio" th:id="${option.id}" th:name="${option.name}" value="0">
+        <label th:for="${option.id}" th:text="${option.name + ' - $'+ option.price + ' (' + option.duration.min + ' - ' + option.duration.max + 'days)' }">Ignore</label>
+    </div>
+</div>
+

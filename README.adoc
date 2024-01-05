@@ -16,11 +16,7 @@ Most technologes are replaced with equivalents that are popular in the Java worl
 |===
 |Original |Equivalent | Comment
 
-| ASP.NET | Spring Thymeleaf | See README in CH12
-| NServiceBus | RabbitMQ  | See README in CH12
-| Mass Transit | Kafka  |  See README in CH12
-
-| ASP.NET | Spring Thymeleaf | See README in CH12
+| ASP.NET | Spring Thymeleaf | See README in CH12, CH23
 | NServiceBus | RabbitMQ, ApplicationEventPublisher  | See README in CH12 and CH18
 | Mass Transit | Kafka  | See README in CH12
 | Syndication |  rometools | See README in CH13
@@ -79,9 +75,14 @@ See link:ch21/README.adoc[] for details.
 This chapter required a bit of work with event sourcing.
 See link:ch22/README.adoc[] for details.
 
+=== Chapter 23
+This chapter required a bit of work with ThymeLeaf.
+See link:ch23/README.adoc[] for details.
+
 == Contributing
 
-Improvements and pull requests are welcome!
+Improvements are welcome! Feel free to create issues or pull requests.
+Fixing mistyping in readmes is also welcome!
+
 Each readme has a ToDon't list.
 It's a list of potential improvements, but I won't have time for them. Feel free to check them.
-Fixing mistyping in readmes is also welcome!

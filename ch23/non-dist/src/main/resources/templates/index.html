@@ -1,0 +1,34 @@
+<!-- var productIdsInBasket = new string[3] { "prod1", "prod2", "prod3"}; -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>PPPDDD Composite UI</title>
+    <!--
+    Can also use RenderAction here if Bounded Contexts
+    need to inject custom javascript
+    -->
+</head>
+<body>
+<h1>Your Basket</h1>
+
+
+<div th:each="pid: ${productIdsInBasket}">
+    <div class="basketItem" style="margin-bottom: 20px;">
+
+        <!--        @{ Html.RenderAction("ItemInBasket", "CatalogBoundedContext", new { productId = pid}); }-->
+        <!--        @{ Html.RenderAction("Price", "PricingBoundedContext", new { productId = pid }); }-->
+
+        <div th:remove="tag" th:utext="${@catalogBoundedContextController.itemInBasket(pid)}"></div>
+        <div th:remove="tag" th:utext="${@pricingBoundedContextController.price(pid)}"></div>
+        <br>
+    </div>
+</div>
+
+
+<div th:remove="tag" th:utext="${@shippingBoundedContextController.deliveryOptions()}"></div>
+
+</body>
+</html>
