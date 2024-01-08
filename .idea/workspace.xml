@@ -31,11 +31,12 @@
         <option value="module-info" />
         <option value="package-info" />
         <option value="Enum" />
-        <option value="Interface" />
+        <option value="Empty" />
         <option value="Record" />
         <option value="JUnit5 Test Class" />
-        <option value="Empty" />
         <option value="HTML File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -80,77 +81,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "DefaultPlantUmlFileTemplate": "Empty",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "last_directory_selection": "/Users/ravil/projects/ppp-of-ddd/ch16/src/test/java/ch16",
-    "last_opened_file_path": "/Users/ravil/projects/ppp-of-ddd/ch23/dist/src/main/resources/static",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;Empty&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch25/command-handler-application/src/main/java/ch/application/framework&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch25/command-handler-presentation/src/main/resources/templates/account&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.controller" />
+      <recent name="ch.model.baskets" />
+      <recent name="ch.model.baskets.events" />
       <recent name="eventstoredb.infrastructure" />
       <recent name="ravendbeventstore.model.PayAsYouGo" />
-      <recent name="ravendbeventstore.infrastructure" />
-      <recent name="ch22.eventstore" />
-      <recent name="jdbiexample.infrastructure" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch25/command-handler-presentation/src/main/resources/templates/account" />
+      <recent name="$PROJECT_DIR$/ch25/command-handler-presentation/src/main/resources/public" />
       <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources" />
       <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch25/command-handler-presentation/src/main/resources/public" />
       <recent name="$PROJECT_DIR$/ch23/assets" />
       <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/static/scripts" />
       <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/public" />
       <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/templates/CatalogBoundedContext" />
-      <recent name="$PROJECT_DIR$/ch22/ravendb-eventstore" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="gambling.applicationServices.publishSubscribe" />
+      <recent name="ch.application.framework" />
       <recent name="uicomp.application.controllers" />
       <recent name="ch12.listing5_6_7" />
       <recent name="ch15" />
-      <recent name="ch14.events" />
-      <recent name="me.dehasi.billing.messages.commands" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.application.framework" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ch.application" />
       <recent name="eventstoredb.infrastructure" />
       <recent name="sqliteeventstore.model.PayAsYouGo" />
       <recent name="StaticDomainEvents.model" />
       <recent name="ReturnEvents.model" />
-      <recent name="StaticDomainEvents.application" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="uicomp.dist.controllers" />
-      <recent name="uicomp.dist" />
-      <recent name="ravendbeventstore.model.PayAsYouGo" />
-      <recent name="ravendbeventstore.infrastructure" />
-      <recent name="ravendbeventstore" />
+      <recent name="gambling.applicationServices.asyncAwait" />
+      <recent name="gambling.applicationServices.n6_communication" />
+      <recent name="gambling.applicationServices.n4_logging_metrics" />
+      <recent name="gambling.applicationServices.n3_error_handling" />
+      <recent name="gambling.applicationServices.n2_transaction" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DistUIComp">
+  <component name="RunManager" selected="JUnit.Recommend_a_friend_Test (1)">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -180,71 +184,79 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="DistUIComp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uicomp.dist.DistUIComp" />
-      <module name="dist" />
+    <configuration name="Recommend_a_friend_Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gambling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uicomp.dist.*" />
+          <option name="PATTERN" value="gambling.applicationServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESDBProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eventstoredb.presentation.ESDBProgram" />
-      <module name="eventstoredb-eventstore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eventstoredb.presentation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NonDistUIComp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uicomp.NonDistUIComp" />
-      <module name="non-dist" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uicomp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImportTestData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eventstoredb-eventstore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
-      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.ImportTestData" />
+      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
+      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eventstoredb-eventstore" />
+    <configuration name="Recommend_a_friend_Test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gambling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="eventstoredb.infrastructure.*" />
+          <option name="PATTERN" value="gambling.applicationServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="eventstoredb.infrastructure" />
-      <option name="MAIN_CLASS_NAME" value="eventstoredb.infrastructure.ImportTestData" />
-      <option name="METHOD_NAME" value="import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
+      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
+      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recommend_a_friend_Test.The_referrers_loyalty_is_upgraded_to_gold_status" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gambling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gambling.applicationServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
+      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
+      <option name="METHOD_NAME" value="The_referrers_loyalty_is_upgraded_to_gold_status" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recommend_a_friend_Test.the_referrers_loyalty_is_upgraded_to_gold_status" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gambling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gambling.applicationServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
+      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
+      <option name="METHOD_NAME" value="the_referrers_loyalty_is_upgraded_to_gold_status" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recommend_a_friend_Test.the_refferer_gets_an_email_notifying_of_the_referral" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gambling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gambling.applicationServices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
+      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
+      <option name="METHOD_NAME" value="the_refferer_gets_an_email_notifying_of_the_referral" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,19 +269,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DistUIComp" />
-      <item itemvalue="Application.NonDistUIComp" />
-      <item itemvalue="Application.ESDBProgram" />
-      <item itemvalue="JUnit.ImportTestData" />
-      <item itemvalue="JUnit.ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
+      <item itemvalue="JUnit.Recommend_a_friend_Test (1)" />
+      <item itemvalue="JUnit.Recommend_a_friend_Test (2)" />
+      <item itemvalue="JUnit.Recommend_a_friend_Test.The_referrers_loyalty_is_upgraded_to_gold_status" />
+      <item itemvalue="JUnit.Recommend_a_friend_Test.the_referrers_loyalty_is_upgraded_to_gold_status" />
+      <item itemvalue="JUnit.Recommend_a_friend_Test.the_refferer_gets_an_email_notifying_of_the_referral" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DistUIComp" />
-        <item itemvalue="Application.NonDistUIComp" />
-        <item itemvalue="JUnit.ImportTestData" />
-        <item itemvalue="JUnit.ImportTestData.import_test_data_for_temporal_queries_and_projections_example_in_the_book" />
-        <item itemvalue="Application.ESDBProgram" />
+        <item itemvalue="JUnit.Recommend_a_friend_Test (1)" />
+        <item itemvalue="JUnit.Recommend_a_friend_Test.the_refferer_gets_an_email_notifying_of_the_referral" />
+        <item itemvalue="JUnit.Recommend_a_friend_Test (2)" />
+        <item itemvalue="JUnit.Recommend_a_friend_Test.the_referrers_loyalty_is_upgraded_to_gold_status" />
+        <item itemvalue="JUnit.Recommend_a_friend_Test.The_referrers_loyalty_is_upgraded_to_gold_status" />
       </list>
     </recent_temporary>
   </component>
@@ -288,32 +300,32 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-22 EventstoreDB can't work with java 8 time" />
-    <MESSAGE value="CH-22 Save events" />
-    <MESSAGE value="CH-22 Make it work" />
-    <MESSAGE value="CH-22 Text" />
-    <MESSAGE value="CH-22 Screenshots" />
-    <MESSAGE value="CH-22 Tests" />
-    <MESSAGE value="CH-23" />
-    <MESSAGE value="CH-23 Web App Skeleton" />
-    <MESSAGE value="CH-23 Thymeleaf Skeleton" />
-    <MESSAGE value="CH-23 Fragments seems can include" />
-    <MESSAGE value="CH-23 Can iterate" />
-    <MESSAGE value="CH-23 Use new syntax" />
-    <MESSAGE value="CH-23 Replace text" />
-    <MESSAGE value="CH-23 Can render manually" />
-    <MESSAGE value="CH-23 Manual render works" />
-    <MESSAGE value="CH-23 Internal classes work" />
-    <MESSAGE value="CH-23 Refactoring" />
-    <MESSAGE value="CH-23 Still not ideal render" />
-    <MESSAGE value="CH-23 Price" />
-    <MESSAGE value="CH-23 Delivery optionn" />
-    <MESSAGE value="CH-23 Delivery options works" />
-    <MESSAGE value="CH-23 Add static content" />
-    <MESSAGE value="CH-23 Add index page" />
     <MESSAGE value="CH-23 JS works" />
     <MESSAGE value="CH-23 JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-23 JS" />
+    <MESSAGE value="CH-25" />
+    <MESSAGE value="CH-25 Promotions" />
+    <MESSAGE value="CH-25 Basket" />
+    <MESSAGE value="CH-25 Events" />
+    <MESSAGE value="CH-25 Commands" />
+    <MESSAGE value="CH-25 Handlers" />
+    <MESSAGE value="CH-25 Modules" />
+    <MESSAGE value="CH-25 At least it's compiles" />
+    <MESSAGE value="CH-25 repos" />
+    <MESSAGE value="CH-25 Seems working" />
+    <MESSAGE value="CH-25 Runs" />
+    <MESSAGE value="CH-25 Test passes" />
+    <MESSAGE value="CH-25 Spring Boot starts" />
+    <MESSAGE value="CH-25 Spring Boot accepts post from Thymeleaf" />
+    <MESSAGE value="CH-25 Validation works" />
+    <MESSAGE value="CH-25 Cookies work" />
+    <MESSAGE value="CH-25 Redirect worksa" />
+    <MESSAGE value="CH-25 Cleanup" />
+    <MESSAGE value="CH-25 Regsiter form" />
+    <MESSAGE value="CH-25 Change password form" />
+    <MESSAGE value="CH-25 Logoff" />
+    <MESSAGE value="CH-25 Add validator" />
+    <MESSAGE value="CH-25 Implement test" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-25 Implement test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -333,6 +345,21 @@
           <line>105</line>
           <option name="timeStamp" value="164" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch25/command-handler-application/src/main/java/ch/application/handlers/AddProductToBasketCommandHandler.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch25/command-handler-presentation/src/main/java/ch/models/validators/PasswordValidator.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch25/command-handler-presentation/src/main/java/ch/models/validators/FieldsMatchValidator.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -343,11 +370,11 @@
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="session.get" language="JAVA" custom="ch15.name.NameWithPersistence.Name" />
+        <watch expression="basketRepository.find_by(basketId)" language="JAVA" />
+        <watch expression="sendReferralAcknowledgement.get(0)" language="JAVA" />
       </configuration>
       <configuration name="Application">
-        <watch expression="getValueInstantiator().canInstantiate()" language="JAVA" />
-        <watch expression="inclusiveMinutesOffer.isSatisfiedBy(credit)" language="JAVA" />
-        <watch expression="eventStore.getStream(streamName, fromEventNumber, toEventNumber);" language="JAVA" />
+        <watch expression="users" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

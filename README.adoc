@@ -79,6 +79,10 @@ See link:ch22/README.adoc[] for details.
 This chapter required a bit of work with ThymeLeaf.
 See link:ch23/README.adoc[] for details.
 
+=== Chapter 25
+This chapter required a bit of work with ThymeLeaf and Commands Handlers.
+See link:ch25/README.adoc[] for details.
+
 == Contributing
 
 Improvements are welcome! Feel free to create issues or pull requests.

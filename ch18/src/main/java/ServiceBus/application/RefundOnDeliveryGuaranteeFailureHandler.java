@@ -11,10 +11,10 @@ import org.springframework.stereotype.Component;
 class RefundOnDeliveryGuaranteeFailureHandler implements ApplicationListener<DeliveryGuaranteeFailed> {
 
     @Autowired
-    private ApplicationEventPublisher bus;
+    private ApplicationEventPublisher applicationEventPublisher;
 
     @Override public void onApplicationEvent(DeliveryGuaranteeFailed event) {
         // handle internal event and publish external event to other bounded contexts
-        bus.publishEvent(new RefundDueToLateDelivery(event.order.id));
+        applicationEventPublisher.publishEvent(new RefundDueToLateDelivery(event.order.id));
     }
 }

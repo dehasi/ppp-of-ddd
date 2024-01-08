@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CH25: LogOn</title>
+</head>
+<body>
+
+<label th:text="${message}">Register</label>
+
+<form action="#" method="post" th:action="@{/account/register}" th:object="${registerModel}">
+    <div class="container">
+        <fieldset>
+            <legend>Account Information</legend>
+
+
+            <label for="userName"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="userName" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+
+            <label for="confirmPassword"><b>Confirm password</b></label>
+            <input type="password" placeholder="Confirm Password" name="confirmPassword" required>
+
+            <button type="submit">Register</button>
+        </fieldset>
+    </div>
+</form>
+</body>
+</html>
