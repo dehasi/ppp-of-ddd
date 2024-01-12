@@ -1,0 +1,8 @@
+version: '3'
+services:
+  eventstoredb:
+    image: 'eventstore/eventstore:21.10.10-bionic'
+    ports:
+      - 1113:1113
+      - 2113:2113
+    command: [ '--insecure', '--run-projections=All', '--enable-atom-pub-over-http' ]

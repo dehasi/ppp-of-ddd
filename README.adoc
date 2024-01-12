@@ -1,12 +1,15 @@
 = Principles, Practices and Patterns of Domain-Driven Design
-:toc:
+:toc: preamble
 :toclevels: 2
 
-Java variant code for the book  https://www.goodreads.com/en/book/show/25531393[Principles, Practices and Patterns of Domain-Driven Design]
+This repository is Java adaptation of sample code for the book
+https://www.goodreads.com/en/book/show/25531393[Principles, Practices and Patterns of Domain-Driven Design].
+The https://github.com/elbandit/PPPDDD[original code] is written in `C#`.
+Samples use various frameworks and technologies. These frameworks were replaced with the most close Java equivalents.
+Samples in some chapters are complete applications. For such chapters, I added additional readmes.
+I described replacements, problems, and screenshots of running apps.
 
 image::assets/book-cover.png[]
-
-The https://github.com/elbandit/PPPDDD[original code] is written in `C#`, it is an adoption for `Java`.
 
 == Replacements
 
@@ -82,6 +85,10 @@ See link:ch23/README.adoc[] for details.
 === Chapter 25
 This chapter required a bit of work with ThymeLeaf and Commands Handlers.
 See link:ch25/README.adoc[] for details.
+
+=== Chapter 26
+This chapter required a bit of work with EventStoreDB.
+See link:ch26/README.adoc[] for details.
 
 == Contributing
 

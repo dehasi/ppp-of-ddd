@@ -40,7 +40,7 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>sales.WebApp</mainClass>
+                            <mainClass>uicomp.dist.DistUIComp</mainClass>
                         </configuration>
                     </execution>
                 </executions>

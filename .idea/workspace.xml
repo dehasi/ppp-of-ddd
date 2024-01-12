@@ -31,12 +31,12 @@
         <option value="module-info" />
         <option value="package-info" />
         <option value="Enum" />
-        <option value="Empty" />
         <option value="Record" />
-        <option value="JUnit5 Test Class" />
         <option value="HTML File" />
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Empty" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -85,13 +85,16 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;DefaultPlantUmlFileTemplate&quot;: &quot;Empty&quot;,
+    &quot;JavaClassFindUsagesOptions.isDerivedClasses&quot;: &quot;true&quot;,
+    &quot;JavaClassFindUsagesOptions.isFieldsUsages&quot;: &quot;true&quot;,
+    &quot;JavaClassFindUsagesOptions.isMethodsUsages&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch25/command-handler-application/src/main/java/ch/application/framework&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch26/src/main/java/ch26reporting/application/dealiership/model&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ravil/projects/ppp-of-ddd/ch25/command-handler-presentation/src/main/resources/templates/account&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -106,11 +109,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch26reporting.domain.dealership" />
+      <recent name="ch26reporting.infrastructure.dealership" />
       <recent name="ch.controller" />
       <recent name="ch.model.baskets" />
       <recent name="ch.model.baskets.events" />
-      <recent name="eventstoredb.infrastructure" />
-      <recent name="ravendbeventstore.model.PayAsYouGo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ch25/command-handler-presentation/src/main/resources/templates/account" />
@@ -120,31 +123,32 @@
       <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch26/src/test/resources" />
+      <recent name="$PROJECT_DIR$/ch26/src/test/resources/database" />
       <recent name="$PROJECT_DIR$/ch25/command-handler-presentation/src/main/resources/public" />
       <recent name="$PROJECT_DIR$/ch23/assets" />
       <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/static/scripts" />
-      <recent name="$PROJECT_DIR$/ch23/dist/src/main/resources/public" />
-      <recent name="$PROJECT_DIR$/ch23/non-dist/src/main/resources/templates/CatalogBoundedContext" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="ch26reporting.domain.dealership" />
+      <recent name="ch26reporting.application.dealiership.model" />
+      <recent name="ch26reporting.application.controllers" />
       <recent name="gambling.applicationServices.publishSubscribe" />
       <recent name="ch.application.framework" />
-      <recent name="uicomp.application.controllers" />
-      <recent name="ch12.listing5_6_7" />
-      <recent name="ch15" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch26reporting.application.controllers" />
       <recent name="ch.application.framework" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ch26reporting.application.controllers" />
+      <recent name="ch26reporting.controllers" />
       <recent name="ch.application" />
       <recent name="eventstoredb.infrastructure" />
       <recent name="sqliteeventstore.model.PayAsYouGo" />
-      <recent name="StaticDomainEvents.model" />
-      <recent name="ReturnEvents.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gambling.applicationServices.asyncAwait" />
@@ -154,7 +158,7 @@
       <recent name="gambling.applicationServices.n2_transaction" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Recommend_a_friend_Test (1)">
+  <component name="RunManager" selected="JUnit.DenormalizedLoyaltyReportControllerTest.index">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -184,79 +188,81 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Recommend_a_friend_Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gambling" />
+    <configuration name="DealershipPerformanceReportControllerTest.index" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch26" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gambling.applicationServices.*" />
+          <option name="PATTERN" value="ch26reporting.application.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
-      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recommend_a_friend_Test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gambling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gambling.applicationServices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
-      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Recommend_a_friend_Test.The_referrers_loyalty_is_upgraded_to_gold_status" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gambling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gambling.applicationServices.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
-      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
-      <option name="METHOD_NAME" value="The_referrers_loyalty_is_upgraded_to_gold_status" />
+      <option name="PACKAGE_NAME" value="ch26reporting.application.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ch26reporting.application.controllers.DealershipPerformanceReportControllerTest" />
+      <option name="METHOD_NAME" value="index" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recommend_a_friend_Test.the_referrers_loyalty_is_upgraded_to_gold_status" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gambling" />
+    <configuration name="DealershipReportUsingMediatorControllerTest.index" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch26" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gambling.applicationServices.*" />
+          <option name="PATTERN" value="ch26reporting.application.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
-      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
-      <option name="METHOD_NAME" value="the_referrers_loyalty_is_upgraded_to_gold_status" />
+      <option name="PACKAGE_NAME" value="ch26reporting.application.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ch26reporting.application.controllers.DealershipReportUsingMediatorControllerTest" />
+      <option name="METHOD_NAME" value="index" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recommend_a_friend_Test.the_refferer_gets_an_email_notifying_of_the_referral" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="gambling" />
+    <configuration name="DenormalizedLoyaltyReportControllerTest.index" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch26" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gambling.applicationServices.*" />
+          <option name="PATTERN" value="ch26reporting.application.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="gambling.applicationServices" />
-      <option name="MAIN_CLASS_NAME" value="gambling.applicationServices.Recommend_a_friend_Test" />
-      <option name="METHOD_NAME" value="the_refferer_gets_an_email_notifying_of_the_referral" />
+      <option name="PACKAGE_NAME" value="ch26reporting.application.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ch26reporting.application.controllers.DenormalizedLoyaltyReportControllerTest" />
+      <option name="METHOD_NAME" value="index" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HealthcareEventProjectionReportControllerTest.index" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch26reporting.application.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch26reporting.application.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ch26reporting.application.controllers.HealthcareEventProjectionReportControllerTest" />
+      <option name="METHOD_NAME" value="index" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoyaltyReportQueryingDatastoreControllerTest.index" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch26" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch26reporting.application.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch26reporting.application.controllers" />
+      <option name="MAIN_CLASS_NAME" value="ch26reporting.application.controllers.LoyaltyReportQueryingDatastoreControllerTest" />
+      <option name="METHOD_NAME" value="index" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -269,19 +275,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Recommend_a_friend_Test (1)" />
-      <item itemvalue="JUnit.Recommend_a_friend_Test (2)" />
-      <item itemvalue="JUnit.Recommend_a_friend_Test.The_referrers_loyalty_is_upgraded_to_gold_status" />
-      <item itemvalue="JUnit.Recommend_a_friend_Test.the_referrers_loyalty_is_upgraded_to_gold_status" />
-      <item itemvalue="JUnit.Recommend_a_friend_Test.the_refferer_gets_an_email_notifying_of_the_referral" />
+      <item itemvalue="JUnit.DealershipPerformanceReportControllerTest.index" />
+      <item itemvalue="JUnit.DealershipReportUsingMediatorControllerTest.index" />
+      <item itemvalue="JUnit.DenormalizedLoyaltyReportControllerTest.index" />
+      <item itemvalue="JUnit.HealthcareEventProjectionReportControllerTest.index" />
+      <item itemvalue="JUnit.LoyaltyReportQueryingDatastoreControllerTest.index" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Recommend_a_friend_Test (1)" />
-        <item itemvalue="JUnit.Recommend_a_friend_Test.the_refferer_gets_an_email_notifying_of_the_referral" />
-        <item itemvalue="JUnit.Recommend_a_friend_Test (2)" />
-        <item itemvalue="JUnit.Recommend_a_friend_Test.the_referrers_loyalty_is_upgraded_to_gold_status" />
-        <item itemvalue="JUnit.Recommend_a_friend_Test.The_referrers_loyalty_is_upgraded_to_gold_status" />
+        <item itemvalue="JUnit.DenormalizedLoyaltyReportControllerTest.index" />
+        <item itemvalue="JUnit.LoyaltyReportQueryingDatastoreControllerTest.index" />
+        <item itemvalue="JUnit.DealershipReportUsingMediatorControllerTest.index" />
+        <item itemvalue="JUnit.DealershipPerformanceReportControllerTest.index" />
+        <item itemvalue="JUnit.HealthcareEventProjectionReportControllerTest.index" />
       </list>
     </recent_temporary>
   </component>
@@ -300,11 +306,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="CH-23 JS works" />
-    <MESSAGE value="CH-23 JS" />
-    <MESSAGE value="CH-25" />
-    <MESSAGE value="CH-25 Promotions" />
-    <MESSAGE value="CH-25 Basket" />
     <MESSAGE value="CH-25 Events" />
     <MESSAGE value="CH-25 Commands" />
     <MESSAGE value="CH-25 Handlers" />
@@ -325,7 +326,12 @@
     <MESSAGE value="CH-25 Logoff" />
     <MESSAGE value="CH-25 Add validator" />
     <MESSAGE value="CH-25 Implement test" />
-    <option name="LAST_COMMIT_MESSAGE" value="CH-25 Implement test" />
+    <MESSAGE value="CH-26" />
+    <MESSAGE value="CH-26 Start testing" />
+    <MESSAGE value="CH-26 Loyalty" />
+    <MESSAGE value="CH-26 Screens" />
+    <MESSAGE value="CH-26 Text" />
+    <option name="LAST_COMMIT_MESSAGE" value="CH-26 Text" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -360,6 +366,46 @@
           <line>24</line>
           <option name="timeStamp" value="184" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/main/java/ch26reporting/application/dealiership/controller/DealershipPerformanceReportController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/main/java/ch26reporting/application/dealiership/service/DealershipPerformanceReportBuilder.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/test/java/ch26reporting/application/controllers/DealershipPerformanceReportControllerTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/main/java/ch26reporting/application/controllers/DealershipReportUsingMediatorController.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/main/java/ch26reporting/application/controllers/DealershipReportUsingMediatorController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/main/java/ch26reporting/application/controllers/DenormalizedLoyaltyReportController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/main/java/ch26reporting/application/controllers/DenormalizedLoyaltyReportController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ch26/src/main/java/ch26reporting/application/controllers/DenormalizedLoyaltyReportController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -369,9 +415,9 @@
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="session.get" language="JAVA" custom="ch15.name.NameWithPersistence.Name" />
-        <watch expression="basketRepository.find_by(basketId)" language="JAVA" />
-        <watch expression="sendReferralAcknowledgement.get(0)" language="JAVA" />
+        <watch expression="response" language="JAVA" />
+        <watch expression="response.getBody()" language="JAVA" />
+        <watch expression="projectionStateUrl + &quot;?&quot; + streamName" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="users" language="JAVA" />

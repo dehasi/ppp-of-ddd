@@ -1,0 +1,90 @@
+{
+  "start": "2014-01-02",
+  "end": "2014-04-01",
+  "summaries": [
+    {
+      "DiagnosisName": "Eczema",
+      "Month": "2014-01-01",
+      "MonthString": "2014-01-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Vertigo",
+      "Month": "2014-01-01",
+      "MonthString": "2014-01-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Hypochrondriac",
+      "Month": "2014-01-01",
+      "MonthString": "2014-01-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Eczema",
+      "Month": "2014-02-01",
+      "MonthString": "2014-02-01",
+      "Amount": 1,
+      "Percentage": 50.0
+    },
+    {
+      "DiagnosisName": "Vertigo",
+      "Month": "2014-02-01",
+      "MonthString": "2014-02-01",
+      "Amount": 1,
+      "Percentage": 50.0
+    },
+    {
+      "DiagnosisName": "Hypochrondriac",
+      "Month": "2014-02-01",
+      "MonthString": "2014-02-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Eczema",
+      "Month": "2014-03-01",
+      "MonthString": "2014-03-01",
+      "Amount": 2,
+      "Percentage": 100.0
+    },
+    {
+      "DiagnosisName": "Vertigo",
+      "Month": "2014-03-01",
+      "MonthString": "2014-03-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Hypochrondriac",
+      "Month": "2014-03-01",
+      "MonthString": "2014-03-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Eczema",
+      "Month": "2014-04-01",
+      "MonthString": "2014-04-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Vertigo",
+      "Month": "2014-04-01",
+      "MonthString": "2014-04-01",
+      "Amount": 0,
+      "Percentage": 0.0
+    },
+    {
+      "DiagnosisName": "Hypochrondriac",
+      "Month": "2014-04-01",
+      "MonthString": "2014-04-01",
+      "Amount": 1,
+      "Percentage": 100.0
+    }
+  ]
+}
